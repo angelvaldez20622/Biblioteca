@@ -1,0 +1,5 @@
+git add .
+git commit -m "Mi primer commit"
+git branch -M main
+git remote add origin https://github.com/angelvaldez20622/Biblioteca.git
+git push -u origin main
