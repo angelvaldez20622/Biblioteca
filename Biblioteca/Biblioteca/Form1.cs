@@ -1,10 +1,15 @@
 namespace Biblioteca
 {
-    public partial class Form1 : Form
+    public partial class IniciarSesion : Form
     {
-        public Form1()
+        public IniciarSesion()
         {
             InitializeComponent();
+        }
+
+        private void IniciarSesion_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
