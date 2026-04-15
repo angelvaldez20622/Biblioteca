@@ -49,6 +49,7 @@
             button1.Text = "Aceptar";
             button1.TextAlign = ContentAlignment.BottomCenter;
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // label1
             // 
@@ -80,6 +81,7 @@
             tbUsuario.Name = "tbUsuario";
             tbUsuario.Size = new Size(300, 30);
             tbUsuario.TabIndex = 3;
+            tbUsuario.KeyPress += tbUsuario_KeyPress;
             // 
             // tbContraseña
             // 
@@ -89,6 +91,7 @@
             tbContraseña.Name = "tbContraseña";
             tbContraseña.Size = new Size(300, 30);
             tbContraseña.TabIndex = 4;
+            tbContraseña.KeyPress += tbContraseña_KeyPress;
             // 
             // pictureBox1
             // 
@@ -115,6 +118,7 @@
             Name = "IniciarSesion";
             Text = "Iniciar Sesion";
             Load += IniciarSesion_Load;
+            KeyPress += IniciarSesion_KeyPress;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

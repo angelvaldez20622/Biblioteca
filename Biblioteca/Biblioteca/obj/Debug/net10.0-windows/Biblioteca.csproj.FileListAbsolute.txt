@@ -17,3 +17,30 @@ C:\Git proyect\Biblioteca\Bibliotecaa\Biblioteca\Biblioteca\Biblioteca\obj\Debug
 C:\Git proyect\Biblioteca\Bibliotecaa\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.IniciarSesion.resources
 C:\Git proyect\Biblioteca\Bibliotecaa\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.Menu.resources
 C:\Git proyect\Biblioteca\Bibliotecaa\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.Properties.Resources.resources
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\bin\Debug\net10.0-windows\Biblioteca.exe
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\bin\Debug\net10.0-windows\Biblioteca.deps.json
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\bin\Debug\net10.0-windows\Biblioteca.runtimeconfig.json
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\bin\Debug\net10.0-windows\Biblioteca.dll
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\bin\Debug\net10.0-windows\Biblioteca.pdb
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\bin\Debug\net10.0-windows\System.Data.SqlClient.dll
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\bin\Debug\net10.0-windows\runtimes\win-arm64\native\sni.dll
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\bin\Debug\net10.0-windows\runtimes\win-x64\native\sni.dll
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\bin\Debug\net10.0-windows\runtimes\win-x86\native\sni.dll
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\bin\Debug\net10.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\bin\Debug\net10.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.csproj.AssemblyReference.cache
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.IniciarSesion.resources
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.Menu.resources
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.Properties.Resources.resources
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.csproj.GenerateResource.cache
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.GeneratedMSBuildEditorConfig.editorconfig
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.AssemblyInfoInputs.cache
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.AssemblyInfo.cs
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.csproj.CoreCompileInputs.cache
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.sourcelink.json
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.csproj.Up2Date
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.dll
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\refint\Biblioteca.dll
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.pdb
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.genruntimeconfig.cache
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\ref\Biblioteca.dll

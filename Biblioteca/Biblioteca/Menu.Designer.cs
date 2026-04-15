@@ -95,6 +95,8 @@
             Name = "Menu";
             Text = "Menu";
             WindowState = FormWindowState.Maximized;
+            FormClosed += Menu_FormClosed;
+            Load += Menu_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
