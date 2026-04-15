@@ -44,3 +44,11 @@ C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyec
 C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.pdb
 C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.genruntimeconfig.cache
 C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\ref\Biblioteca.dll
+C:\Git proyect\Biblioteca\Bibliotecaa\Biblioteca\Biblioteca\Biblioteca\bin\Debug\net10.0-windows\System.Data.SqlClient.dll
+C:\Git proyect\Biblioteca\Bibliotecaa\Biblioteca\Biblioteca\Biblioteca\bin\Debug\net10.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Git proyect\Biblioteca\Bibliotecaa\Biblioteca\Biblioteca\Biblioteca\bin\Debug\net10.0-windows\runtimes\win-x64\native\sni.dll
+C:\Git proyect\Biblioteca\Bibliotecaa\Biblioteca\Biblioteca\Biblioteca\bin\Debug\net10.0-windows\runtimes\win-x86\native\sni.dll
+C:\Git proyect\Biblioteca\Bibliotecaa\Biblioteca\Biblioteca\Biblioteca\bin\Debug\net10.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Git proyect\Biblioteca\Bibliotecaa\Biblioteca\Biblioteca\Biblioteca\bin\Debug\net10.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Git proyect\Biblioteca\Bibliotecaa\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.csproj.AssemblyReference.cache
+C:\Git proyect\Biblioteca\Bibliotecaa\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.csproj.Up2Date
