@@ -114,8 +114,8 @@ namespace Biblioteca.Clases
             SqlCommand cmd;
 
             cxn = CConexion_BD.getcxn();
-            string consulta = "insert into Rol " +
-                              "(id, descripcion) " +
+            string consulta = "insert into Roles " +
+                              "(id, nombre) " +
                               "values (" + miObjeto.Id + ", '"
                                         + miObjeto.Nombre +
                                          "' )";
@@ -222,9 +222,9 @@ namespace Biblioteca.Clases
             SqlCommand cmd;
 
             cxn = CConexion_BD.getcxn();
-            string consulta = "update Rol set " +
-                              "descripcion = '" + miObjeto.Nombre + "'" +
-                              " where id =" + miObjeto.Id;
+            string consulta = "update Roles set " +
+                              "nombre = '" + miObjeto.Nombre + "'" +
+                              " where id_rol =" + miObjeto.Id;
             cmd = new SqlCommand(consulta, cxn);
             cxn.Open();
             try

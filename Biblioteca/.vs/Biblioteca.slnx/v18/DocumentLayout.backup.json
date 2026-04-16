@@ -1,34 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Git proyect\\Biblioteca\\Bibliotecaa\\Biblioteca\\Biblioteca\\",
+  "WorkspaceRootPath": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Proyecto Biblioteca\\Biblioteca\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|C:\\Git proyect\\Biblioteca\\Bibliotecaa\\Biblioteca\\Biblioteca\\biblioteca\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|c:\\git proyect\\biblioteca\\bibliotecaa\\biblioteca\\biblioteca\\biblioteca\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|C:\\Git proyect\\Biblioteca\\Bibliotecaa\\Biblioteca\\Biblioteca\\biblioteca\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|c:\\git proyect\\biblioteca\\bibliotecaa\\biblioteca\\biblioteca\\biblioteca\\base de datos\\cconexion_bd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|c:\\sistemas\\semestre 6\\ambientes colaborativos y control de versiones git\\proyecto biblioteca\\biblioteca\\biblioteca\\base de datos\\cconexion_bd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\base de datos\\cconexion_bd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|c:\\git proyect\\biblioteca\\bibliotecaa\\biblioteca\\biblioteca\\biblioteca\\clases\\cusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\clases\\cusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|c:\\sistemas\\semestre 6\\ambientes colaborativos y control de versiones git\\proyecto biblioteca\\biblioteca\\biblioteca\\clases\\cautores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\clases\\cautores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|c:\\git proyect\\biblioteca\\bibliotecaa\\biblioteca\\biblioteca\\biblioteca\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|c:\\sistemas\\semestre 6\\ambientes colaborativos y control de versiones git\\proyecto biblioteca\\biblioteca\\biblioteca\\clases\\clibros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\clases\\clibros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|c:\\git proyect\\biblioteca\\bibliotecaa\\biblioteca\\biblioteca\\biblioteca\\clases\\croles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|c:\\sistemas\\semestre 6\\ambientes colaborativos y control de versiones git\\proyecto biblioteca\\biblioteca\\biblioteca\\clases\\ccategorialibros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\clases\\ccategorialibros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|c:\\sistemas\\semestre 6\\ambientes colaborativos y control de versiones git\\proyecto biblioteca\\biblioteca\\biblioteca\\clases\\croles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\clases\\croles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|c:\\sistemas\\semestre 6\\ambientes colaborativos y control de versiones git\\proyecto biblioteca\\biblioteca\\biblioteca\\clases\\cusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\clases\\cusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,99 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CRoles.cs",
-              "DocumentMoniker": "C:\\Git proyect\\Biblioteca\\Bibliotecaa\\Biblioteca\\Biblioteca\\Biblioteca\\Clases\\CRoles.cs",
-              "RelativeDocumentMoniker": "Biblioteca\\Clases\\CRoles.cs",
-              "ToolTip": "C:\\Git proyect\\Biblioteca\\Bibliotecaa\\Biblioteca\\Biblioteca\\Biblioteca\\Clases\\CRoles.cs",
-              "RelativeToolTip": "Biblioteca\\Clases\\CRoles.cs",
-              "ViewState": "AgIAAN8AAAAAAAAAAAAIwPYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T20:01:21.194Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CUsuarios.cs",
-              "DocumentMoniker": "C:\\Git proyect\\Biblioteca\\Bibliotecaa\\Biblioteca\\Biblioteca\\Biblioteca\\Clases\\CUsuarios.cs",
-              "RelativeDocumentMoniker": "Biblioteca\\Clases\\CUsuarios.cs",
-              "ToolTip": "C:\\Git proyect\\Biblioteca\\Bibliotecaa\\Biblioteca\\Biblioteca\\Biblioteca\\Clases\\CUsuarios.cs",
-              "RelativeToolTip": "Biblioteca\\Clases\\CUsuarios.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAADgv2AAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T20:00:28.742Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "C:\\Git proyect\\Biblioteca\\Bibliotecaa\\Biblioteca\\Biblioteca\\Biblioteca\\Menu.cs",
-              "RelativeDocumentMoniker": "Biblioteca\\Menu.cs",
-              "ToolTip": "C:\\Git proyect\\Biblioteca\\Bibliotecaa\\Biblioteca\\Biblioteca\\Biblioteca\\Menu.cs",
-              "RelativeToolTip": "Biblioteca\\Menu.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T19:54:39.034Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "CConexion_BD.cs",
-              "DocumentMoniker": "C:\\Git proyect\\Biblioteca\\Bibliotecaa\\Biblioteca\\Biblioteca\\Biblioteca\\Base de datos\\CConexion_BD.cs",
+              "DocumentMoniker": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Proyecto Biblioteca\\Biblioteca\\Biblioteca\\Base de datos\\CConexion_BD.cs",
               "RelativeDocumentMoniker": "Biblioteca\\Base de datos\\CConexion_BD.cs",
-              "ToolTip": "C:\\Git proyect\\Biblioteca\\Bibliotecaa\\Biblioteca\\Biblioteca\\Biblioteca\\Base de datos\\CConexion_BD.cs",
+              "ToolTip": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Proyecto Biblioteca\\Biblioteca\\Biblioteca\\Base de datos\\CConexion_BD.cs",
               "RelativeToolTip": "Biblioteca\\Base de datos\\CConexion_BD.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAowBoAAACFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T19:37:22.553Z",
+              "WhenOpened": "2026-04-16T23:26:28.152Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Git proyect\\Biblioteca\\Bibliotecaa\\Biblioteca\\Biblioteca\\Biblioteca\\Form1.cs",
-              "RelativeDocumentMoniker": "Biblioteca\\Form1.cs",
-              "ToolTip": "C:\\Git proyect\\Biblioteca\\Bibliotecaa\\Biblioteca\\Biblioteca\\Biblioteca\\Form1.cs",
-              "RelativeToolTip": "Biblioteca\\Form1.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAcwD4AAAApAAAAAAAAAA==",
+              "Title": "CUsuarios.cs",
+              "DocumentMoniker": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Proyecto Biblioteca\\Biblioteca\\Biblioteca\\Clases\\CUsuarios.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\Clases\\CUsuarios.cs",
+              "ToolTip": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Proyecto Biblioteca\\Biblioteca\\Biblioteca\\Clases\\CUsuarios.cs",
+              "RelativeToolTip": "Biblioteca\\Clases\\CUsuarios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T19:35:10.385Z",
+              "WhenOpened": "2026-04-16T23:26:14.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CRoles.cs",
+              "DocumentMoniker": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Proyecto Biblioteca\\Biblioteca\\Biblioteca\\Clases\\CRoles.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\Clases\\CRoles.cs",
+              "ToolTip": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Proyecto Biblioteca\\Biblioteca\\Biblioteca\\Clases\\CRoles.cs",
+              "RelativeToolTip": "Biblioteca\\Clases\\CRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T23:26:01.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CCategoriaLibros.cs",
+              "DocumentMoniker": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Proyecto Biblioteca\\Biblioteca\\Biblioteca\\Clases\\CCategoriaLibros.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\Clases\\CCategoriaLibros.cs",
+              "ToolTip": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Proyecto Biblioteca\\Biblioteca\\Biblioteca\\Clases\\CCategoriaLibros.cs",
+              "RelativeToolTip": "Biblioteca\\Clases\\CCategoriaLibros.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T23:25:43.427Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Git proyect\\Biblioteca\\Bibliotecaa\\Biblioteca\\Biblioteca\\Biblioteca\\Form1.cs",
-              "RelativeDocumentMoniker": "Biblioteca\\Form1.cs",
-              "ToolTip": "C:\\Git proyect\\Biblioteca\\Bibliotecaa\\Biblioteca\\Biblioteca\\Biblioteca\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Biblioteca\\Form1.cs [Dise\u00F1o]",
+              "Title": "CLibros.cs",
+              "DocumentMoniker": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Proyecto Biblioteca\\Biblioteca\\Biblioteca\\Clases\\CLibros.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\Clases\\CLibros.cs",
+              "ToolTip": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Proyecto Biblioteca\\Biblioteca\\Biblioteca\\Clases\\CLibros.cs",
+              "RelativeToolTip": "Biblioteca\\Clases\\CLibros.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T17:29:56.155Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-04-16T23:25:34.581Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Menu.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Git proyect\\Biblioteca\\Bibliotecaa\\Biblioteca\\Biblioteca\\Biblioteca\\Menu.cs",
-              "RelativeDocumentMoniker": "Biblioteca\\Menu.cs",
-              "ToolTip": "C:\\Git proyect\\Biblioteca\\Bibliotecaa\\Biblioteca\\Biblioteca\\Biblioteca\\Menu.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Biblioteca\\Menu.cs [Dise\u00F1o]",
+              "DocumentIndex": 1,
+              "Title": "CAutores.cs",
+              "DocumentMoniker": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Proyecto Biblioteca\\Biblioteca\\Biblioteca\\Clases\\CAutores.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\Clases\\CAutores.cs",
+              "ToolTip": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Proyecto Biblioteca\\Biblioteca\\Biblioteca\\Clases\\CAutores.cs",
+              "RelativeToolTip": "Biblioteca\\Clases\\CAutores.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T16:02:55.922Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-04-16T23:24:15.981Z",
+              "EditorCaption": ""
             }
           ]
         }
