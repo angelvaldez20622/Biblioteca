@@ -55,3 +55,5 @@ C:\Git proyect\Biblioteca\Bibliotecaa\Biblioteca\Biblioteca\Biblioteca\obj\Debug
 C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.Usuario.frmAyuda.resources
 C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\bin\Debug\net10.0-windows\TextboxEx.dll
 C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\bin\Debug\net10.0-windows\TextboxEx.pdb
+C:\Git proyect\Biblioteca\Bibliotecaa\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.Usuario.frmAyuda.resources
+C:\Git proyect\Biblioteca\Bibliotecaa\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.Usuario.frmRoles.resources
