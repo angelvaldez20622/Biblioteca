@@ -1,34 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Git proyect\\Biblioteca\\Bibliotecaa\\Biblioteca\\Biblioteca\\",
+  "WorkspaceRootPath": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Proyecto Biblioteca\\Biblioteca\\Biblioteca\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|c:\\git proyect\\biblioteca\\bibliotecaa\\biblioteca\\biblioteca\\biblioteca\\base de datos\\cconexion_bd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\base de datos\\cconexion_bd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|c:\\git proyect\\biblioteca\\bibliotecaa\\biblioteca\\biblioteca\\biblioteca\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|c:\\git proyect\\biblioteca\\bibliotecaa\\biblioteca\\biblioteca\\biblioteca\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|c:\\git proyect\\biblioteca\\bibliotecaa\\biblioteca\\biblioteca\\biblioteca\\usuario\\frmroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\usuario\\frmroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|c:\\git proyect\\biblioteca\\bibliotecaa\\biblioteca\\biblioteca\\biblioteca\\usuario\\frmroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|c:\\sistemas\\semestre 6\\ambientes colaborativos y control de versiones git\\proyecto biblioteca\\biblioteca\\biblioteca\\biblioteca\\usuario\\frmroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\usuario\\frmroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|c:\\git proyect\\biblioteca\\bibliotecaa\\biblioteca\\biblioteca\\biblioteca\\usuario\\frmayuda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|c:\\sistemas\\semestre 6\\ambientes colaborativos y control de versiones git\\proyecto biblioteca\\biblioteca\\biblioteca\\biblioteca\\usuario\\frmayuda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\usuario\\frmayuda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|C:\\Git proyect\\Biblioteca\\Bibliotecaa\\Biblioteca\\Biblioteca\\biblioteca\\usuario\\frmayuda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Proyecto Biblioteca\\Biblioteca\\Biblioteca\\biblioteca\\usuario\\frmayuda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\usuario\\frmayuda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Proyecto Biblioteca\\Biblioteca\\Biblioteca\\biblioteca\\usuario\\frmroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\usuario\\frmroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|c:\\sistemas\\semestre 6\\ambientes colaborativos y control de versiones git\\proyecto biblioteca\\biblioteca\\biblioteca\\biblioteca\\base de datos\\cconexion_bd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\base de datos\\cconexion_bd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Proyecto Biblioteca\\Biblioteca\\Biblioteca\\biblioteca\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|c:\\sistemas\\semestre 6\\ambientes colaborativos y control de versiones git\\proyecto biblioteca\\biblioteca\\biblioteca\\biblioteca\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,59 +38,53 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "CConexion_BD.cs",
-              "DocumentMoniker": "C:\\Git proyect\\Biblioteca\\Bibliotecaa\\Biblioteca\\Biblioteca\\Biblioteca\\Base de datos\\CConexion_BD.cs",
+              "DocumentMoniker": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Proyecto Biblioteca\\Biblioteca\\Biblioteca\\Biblioteca\\Base de datos\\CConexion_BD.cs",
               "RelativeDocumentMoniker": "Biblioteca\\Base de datos\\CConexion_BD.cs",
-              "ToolTip": "C:\\Git proyect\\Biblioteca\\Bibliotecaa\\Biblioteca\\Biblioteca\\Biblioteca\\Base de datos\\CConexion_BD.cs",
+              "ToolTip": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Proyecto Biblioteca\\Biblioteca\\Biblioteca\\Biblioteca\\Base de datos\\CConexion_BD.cs",
               "RelativeToolTip": "Biblioteca\\Base de datos\\CConexion_BD.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAwwBoAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwBkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-17T16:12:52.093Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Menu.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Git proyect\\Biblioteca\\Bibliotecaa\\Biblioteca\\Biblioteca\\Biblioteca\\Menu.cs",
+              "DocumentMoniker": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Proyecto Biblioteca\\Biblioteca\\Biblioteca\\Biblioteca\\Menu.cs",
               "RelativeDocumentMoniker": "Biblioteca\\Menu.cs",
               "ToolTip": "C:\\Git proyect\\Biblioteca\\Bibliotecaa\\Biblioteca\\Biblioteca\\Biblioteca\\Menu.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Biblioteca\\Menu.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Git proyect\\Biblioteca\\Bibliotecaa\\Biblioteca\\Biblioteca\\Biblioteca\\Menu.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T16:11:29.233Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-04-17T16:11:29.233Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Menu.cs",
-              "DocumentMoniker": "C:\\Git proyect\\Biblioteca\\Bibliotecaa\\Biblioteca\\Biblioteca\\Biblioteca\\Menu.cs",
+              "DocumentMoniker": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Proyecto Biblioteca\\Biblioteca\\Biblioteca\\Biblioteca\\Menu.cs",
               "RelativeDocumentMoniker": "Biblioteca\\Menu.cs",
-              "ToolTip": "C:\\Git proyect\\Biblioteca\\Bibliotecaa\\Biblioteca\\Biblioteca\\Biblioteca\\Menu.cs",
+              "ToolTip": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Proyecto Biblioteca\\Biblioteca\\Biblioteca\\Biblioteca\\Menu.cs",
               "RelativeToolTip": "Biblioteca\\Menu.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T16:11:05.292Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-17T16:11:05.292Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "frmRoles.cs",
-              "DocumentMoniker": "C:\\Git proyect\\Biblioteca\\Bibliotecaa\\Biblioteca\\Biblioteca\\Biblioteca\\Usuario\\frmRoles.cs",
+              "DocumentMoniker": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Proyecto Biblioteca\\Biblioteca\\Biblioteca\\Biblioteca\\Usuario\\frmRoles.cs",
               "RelativeDocumentMoniker": "Biblioteca\\Usuario\\frmRoles.cs",
-              "ToolTip": "C:\\Git proyect\\Biblioteca\\Bibliotecaa\\Biblioteca\\Biblioteca\\Biblioteca\\Usuario\\frmRoles.cs",
+              "ToolTip": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Proyecto Biblioteca\\Biblioteca\\Biblioteca\\Biblioteca\\Usuario\\frmRoles.cs",
               "RelativeToolTip": "Biblioteca\\Usuario\\frmRoles.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAqwBAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAwwBgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-17T00:56:38.274Z",
               "EditorCaption": ""
@@ -99,9 +93,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "frmRoles.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Git proyect\\Biblioteca\\Bibliotecaa\\Biblioteca\\Biblioteca\\Biblioteca\\Usuario\\frmRoles.cs",
+              "DocumentMoniker": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Proyecto Biblioteca\\Biblioteca\\Biblioteca\\Biblioteca\\Usuario\\frmRoles.cs",
               "RelativeDocumentMoniker": "Biblioteca\\Usuario\\frmRoles.cs",
-              "ToolTip": "C:\\Git proyect\\Biblioteca\\Bibliotecaa\\Biblioteca\\Biblioteca\\Biblioteca\\Usuario\\frmRoles.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Proyecto Biblioteca\\Biblioteca\\Biblioteca\\Biblioteca\\Usuario\\frmRoles.cs [Dise\u00F1o]",
               "RelativeToolTip": "Biblioteca\\Usuario\\frmRoles.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-17T00:56:03.656Z",
@@ -109,27 +103,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "frmAyuda.cs",
-              "DocumentMoniker": "C:\\Git proyect\\Biblioteca\\Bibliotecaa\\Biblioteca\\Biblioteca\\Biblioteca\\Usuario\\frmAyuda.cs",
+              "DocumentMoniker": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Proyecto Biblioteca\\Biblioteca\\Biblioteca\\Biblioteca\\Usuario\\frmAyuda.cs",
               "RelativeDocumentMoniker": "Biblioteca\\Usuario\\frmAyuda.cs",
-              "ToolTip": "C:\\Git proyect\\Biblioteca\\Bibliotecaa\\Biblioteca\\Biblioteca\\Biblioteca\\Usuario\\frmAyuda.cs",
+              "ToolTip": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Proyecto Biblioteca\\Biblioteca\\Biblioteca\\Biblioteca\\Usuario\\frmAyuda.cs",
               "RelativeToolTip": "Biblioteca\\Usuario\\frmAyuda.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAiwD0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAADgv0MAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-17T00:41:24.192Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "frmAyuda.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Git proyect\\Biblioteca\\Bibliotecaa\\Biblioteca\\Biblioteca\\Biblioteca\\Usuario\\frmAyuda.cs",
+              "DocumentMoniker": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Proyecto Biblioteca\\Biblioteca\\Biblioteca\\Biblioteca\\Usuario\\frmAyuda.cs",
               "RelativeDocumentMoniker": "Biblioteca\\Usuario\\frmAyuda.cs",
-              "ToolTip": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Proyecto Biblioteca\\Biblioteca\\Biblioteca\\Usuario\\frmAyuda.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Proyecto Biblioteca\\Biblioteca\\Biblioteca\\Usuario\\frmAyuda.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Proyecto Biblioteca\\Biblioteca\\Biblioteca\\Biblioteca\\Usuario\\frmAyuda.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Biblioteca\\Usuario\\frmAyuda.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T00:00:36.9Z"
+              "WhenOpened": "2026-04-17T00:00:36.9Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

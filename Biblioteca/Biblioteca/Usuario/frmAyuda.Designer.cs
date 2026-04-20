@@ -60,6 +60,7 @@
             dgvAyuda.AllowUserToDeleteRows = false;
             dgvAyuda.AllowUserToResizeColumns = false;
             dgvAyuda.AllowUserToResizeRows = false;
+            dgvAyuda.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvAyuda.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvAyuda.Location = new Point(23, 95);
             dgvAyuda.Name = "dgvAyuda";
@@ -69,20 +70,21 @@
             // 
             // bAmpliar
             // 
-            bAmpliar.Location = new Point(755, 546);
+            bAmpliar.Image = Properties.Resources.Ampliar;
+            bAmpliar.Location = new Point(755, 522);
             bAmpliar.Name = "bAmpliar";
-            bAmpliar.Size = new Size(112, 61);
+            bAmpliar.Size = new Size(112, 85);
             bAmpliar.TabIndex = 3;
-            bAmpliar.Text = "ampliar";
             bAmpliar.UseVisualStyleBackColor = true;
+            bAmpliar.Click += bAmpliar_Click;
             // 
             // bSalir
             // 
-            bSalir.Location = new Point(873, 546);
+            bSalir.Image = Properties.Resources.Cancelar;
+            bSalir.Location = new Point(873, 522);
             bSalir.Name = "bSalir";
-            bSalir.Size = new Size(112, 61);
+            bSalir.Size = new Size(112, 85);
             bSalir.TabIndex = 4;
-            bSalir.Text = "salir";
             bSalir.UseVisualStyleBackColor = true;
             bSalir.Click += bSalir_Click;
             // 

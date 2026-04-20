@@ -16,8 +16,10 @@ namespace Biblioteca.Usuario
         private string campotabla2;
         private string tabla;
         private string Condicion;
-        string clave { get; set; }
-        string descripcion { get; set; }
+
+        public string seleccion;
+        public string clave;
+        public string descripcion;
         DataView dv;
         DataSet ds = new DataSet();
 
@@ -46,6 +48,7 @@ namespace Biblioteca.Usuario
             dv = new DataView(dt);
 
             dgvAyuda.DataSource = dv;
+            seleccion = "no";
         }
 
         private void tbBusca_TextChanged(object sender, EventArgs e)
@@ -55,6 +58,12 @@ namespace Biblioteca.Usuario
 
         private void bSalir_Click(object sender, EventArgs e)
         {
+            Close();
+        }
+
+        private void bAmpliar_Click(object sender, EventArgs e)
+        {
+            seleccion = "si";
             Close();
         }
     }
