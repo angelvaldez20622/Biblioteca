@@ -58,5 +58,16 @@ namespace Biblioteca
                 f.ShowDialog();
             }
         }
+
+        private void autoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAyuda ayuda = new frmAyuda("Vista de Autores", "id_autor", "nombre", "Autores", "WHERE id_autor IN ( SELECT TOP 10 id_autor FROM Autores ORDER BY id_autor DESC)");
+            ayuda.ShowDialog();
+            if (ayuda.seleccion == "si")
+            {
+                frmAutores f = new frmAutores();
+                f.ShowDialog();
+            }
+        }
     }
 }

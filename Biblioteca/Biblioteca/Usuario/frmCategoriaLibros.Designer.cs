@@ -159,7 +159,7 @@
             // tsbUltimo
             // 
             tsbUltimo.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            tsbUltimo.Image = (Image)resources.GetObject("tsbUltimo.Image");
+            tsbUltimo.Image = Properties.Resources.Siguiente_21;
             tsbUltimo.ImageScaling = ToolStripItemImageScaling.None;
             tsbUltimo.ImageTransparentColor = Color.Magenta;
             tsbUltimo.Name = "tsbUltimo";

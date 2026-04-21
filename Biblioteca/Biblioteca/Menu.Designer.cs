@@ -31,14 +31,14 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             menuStrip1 = new MenuStrip();
             articulosToolStripMenuItem = new ToolStripMenuItem();
+            categoriasToolStripMenuItem = new ToolStripMenuItem();
+            autoresToolStripMenuItem = new ToolStripMenuItem();
+            librosToolStripMenuItem = new ToolStripMenuItem();
             clientesToolStripMenuItem = new ToolStripMenuItem();
             usuariosToolStripMenuItem = new ToolStripMenuItem();
             rolesToolStripMenuItem = new ToolStripMenuItem();
             prestamosToolStripMenuItem = new ToolStripMenuItem();
             pictureBox2 = new PictureBox();
-            categoriasToolStripMenuItem = new ToolStripMenuItem();
-            autoresToolStripMenuItem = new ToolStripMenuItem();
-            librosToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -59,6 +59,26 @@
             articulosToolStripMenuItem.Name = "articulosToolStripMenuItem";
             articulosToolStripMenuItem.Size = new Size(89, 24);
             articulosToolStripMenuItem.Text = "Inventario";
+            // 
+            // categoriasToolStripMenuItem
+            // 
+            categoriasToolStripMenuItem.Name = "categoriasToolStripMenuItem";
+            categoriasToolStripMenuItem.Size = new Size(224, 26);
+            categoriasToolStripMenuItem.Text = "Categorias";
+            categoriasToolStripMenuItem.Click += categoriasToolStripMenuItem_Click;
+            // 
+            // autoresToolStripMenuItem
+            // 
+            autoresToolStripMenuItem.Name = "autoresToolStripMenuItem";
+            autoresToolStripMenuItem.Size = new Size(224, 26);
+            autoresToolStripMenuItem.Text = "Autores";
+            autoresToolStripMenuItem.Click += autoresToolStripMenuItem_Click;
+            // 
+            // librosToolStripMenuItem
+            // 
+            librosToolStripMenuItem.Name = "librosToolStripMenuItem";
+            librosToolStripMenuItem.Size = new Size(224, 26);
+            librosToolStripMenuItem.Text = "Libros";
             // 
             // clientesToolStripMenuItem
             // 
@@ -96,25 +116,6 @@
             pictureBox2.Size = new Size(1001, 565);
             pictureBox2.TabIndex = 2;
             pictureBox2.TabStop = false;
-            // 
-            // categoriasToolStripMenuItem
-            // 
-            categoriasToolStripMenuItem.Name = "categoriasToolStripMenuItem";
-            categoriasToolStripMenuItem.Size = new Size(224, 26);
-            categoriasToolStripMenuItem.Text = "Categorias";
-            categoriasToolStripMenuItem.Click += categoriasToolStripMenuItem_Click;
-            // 
-            // autoresToolStripMenuItem
-            // 
-            autoresToolStripMenuItem.Name = "autoresToolStripMenuItem";
-            autoresToolStripMenuItem.Size = new Size(224, 26);
-            autoresToolStripMenuItem.Text = "Autores";
-            // 
-            // librosToolStripMenuItem
-            // 
-            librosToolStripMenuItem.Name = "librosToolStripMenuItem";
-            librosToolStripMenuItem.Size = new Size(224, 26);
-            librosToolStripMenuItem.Text = "Libros";
             // 
             // Menu
             // 

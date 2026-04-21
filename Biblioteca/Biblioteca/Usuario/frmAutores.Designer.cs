@@ -1,6 +1,6 @@
 ﻿namespace Biblioteca.Usuario
 {
-    partial class frmUsuarios
+    partial class frmAutores
     {
         /// <summary>
         /// Required designer variable.
@@ -28,17 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmUsuarios));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAutores));
             bCancelar = new Button();
             pEncabezado = new Panel();
-            cbRol = new ComboBox();
-            tbTelefono = new TextBox();
-            label4 = new Label();
-            tbCorreo = new TextBox();
-            label3 = new Label();
-            label2 = new Label();
-            tbClave = new TextBox();
-            label1 = new Label();
             tbNombre = new TextBox();
             lNombre = new Label();
             tbId = new TextBox();
@@ -63,7 +55,7 @@
             // bCancelar
             // 
             bCancelar.Image = (Image)resources.GetObject("bCancelar.Image");
-            bCancelar.Location = new Point(656, 361);
+            bCancelar.Location = new Point(646, 281);
             bCancelar.Name = "bCancelar";
             bCancelar.Size = new Size(76, 69);
             bCancelar.TabIndex = 8;
@@ -72,102 +64,19 @@
             // 
             // pEncabezado
             // 
-            pEncabezado.Controls.Add(cbRol);
-            pEncabezado.Controls.Add(tbTelefono);
-            pEncabezado.Controls.Add(label4);
-            pEncabezado.Controls.Add(tbCorreo);
-            pEncabezado.Controls.Add(label3);
-            pEncabezado.Controls.Add(label2);
-            pEncabezado.Controls.Add(tbClave);
-            pEncabezado.Controls.Add(label1);
             pEncabezado.Controls.Add(tbNombre);
             pEncabezado.Controls.Add(lNombre);
             pEncabezado.Controls.Add(tbId);
             pEncabezado.Controls.Add(lId);
-            pEncabezado.Location = new Point(1, 89);
+            pEncabezado.Location = new Point(12, 91);
             pEncabezado.Name = "pEncabezado";
-            pEncabezado.Size = new Size(731, 256);
+            pEncabezado.Size = new Size(710, 163);
             pEncabezado.TabIndex = 7;
-            // 
-            // cbRol
-            // 
-            cbRol.DropDownStyle = ComboBoxStyle.DropDownList;
-            cbRol.Font = new Font("Segoe UI", 12F);
-            cbRol.FormattingEnabled = true;
-            cbRol.Location = new Point(160, 120);
-            cbRol.Name = "cbRol";
-            cbRol.Size = new Size(244, 36);
-            cbRol.TabIndex = 12;
-            // 
-            // tbTelefono
-            // 
-            tbTelefono.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            tbTelefono.Location = new Point(160, 202);
-            tbTelefono.Name = "tbTelefono";
-            tbTelefono.Size = new Size(189, 34);
-            tbTelefono.TabIndex = 11;
-            tbTelefono.KeyPress += tbTelefono_KeyPress;
-            // 
-            // label4
-            // 
-            label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(53, 202);
-            label4.Name = "label4";
-            label4.Size = new Size(101, 28);
-            label4.TabIndex = 10;
-            label4.Text = "Telefono:";
-            label4.TextAlign = ContentAlignment.MiddleRight;
-            // 
-            // tbCorreo
-            // 
-            tbCorreo.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            tbCorreo.Location = new Point(160, 162);
-            tbCorreo.Name = "tbCorreo";
-            tbCorreo.Size = new Size(488, 34);
-            tbCorreo.TabIndex = 9;
-            // 
-            // label3
-            // 
-            label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(53, 162);
-            label3.Name = "label3";
-            label3.Size = new Size(101, 28);
-            label3.TabIndex = 8;
-            label3.Text = "Correo:";
-            label3.TextAlign = ContentAlignment.MiddleRight;
-            // 
-            // label2
-            // 
-            label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(53, 122);
-            label2.Name = "label2";
-            label2.Size = new Size(101, 28);
-            label2.TabIndex = 6;
-            label2.Text = "Rol:";
-            label2.TextAlign = ContentAlignment.MiddleRight;
-            // 
-            // tbClave
-            // 
-            tbClave.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            tbClave.Location = new Point(160, 82);
-            tbClave.Name = "tbClave";
-            tbClave.Size = new Size(488, 34);
-            tbClave.TabIndex = 5;
-            // 
-            // label1
-            // 
-            label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(53, 82);
-            label1.Name = "label1";
-            label1.Size = new Size(101, 28);
-            label1.TabIndex = 4;
-            label1.Text = "Clave:";
-            label1.TextAlign = ContentAlignment.MiddleRight;
             // 
             // tbNombre
             // 
             tbNombre.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            tbNombre.Location = new Point(160, 42);
+            tbNombre.Location = new Point(173, 91);
             tbNombre.Name = "tbNombre";
             tbNombre.Size = new Size(488, 34);
             tbNombre.TabIndex = 3;
@@ -175,9 +84,9 @@
             // lNombre
             // 
             lNombre.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lNombre.Location = new Point(53, 42);
+            lNombre.Location = new Point(12, 91);
             lNombre.Name = "lNombre";
-            lNombre.Size = new Size(101, 28);
+            lNombre.Size = new Size(155, 28);
             lNombre.TabIndex = 2;
             lNombre.Text = "Nombre:";
             lNombre.TextAlign = ContentAlignment.MiddleRight;
@@ -186,7 +95,7 @@
             // 
             tbId.Enabled = false;
             tbId.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            tbId.Location = new Point(160, 2);
+            tbId.Location = new Point(173, 35);
             tbId.Name = "tbId";
             tbId.Size = new Size(142, 34);
             tbId.TabIndex = 1;
@@ -194,7 +103,7 @@
             // lId
             // 
             lId.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lId.Location = new Point(69, 2);
+            lId.Location = new Point(82, 35);
             lId.Name = "lId";
             lId.Size = new Size(85, 28);
             lId.TabIndex = 0;
@@ -207,7 +116,7 @@
             toolStrip1.Items.AddRange(new ToolStripItem[] { tsbPrimero, tsbAnterior, tsbSiguiente, tsbUltimo, toolStripSeparator1, tsbGuardar, tsbEditar, tsbNuevo, toolStripSeparator2, tsbEliminar, toolStripSeparator3, tsbBuscar });
             toolStrip1.Location = new Point(0, 0);
             toolStrip1.Name = "toolStrip1";
-            toolStrip1.Size = new Size(763, 71);
+            toolStrip1.Size = new Size(746, 71);
             toolStrip1.TabIndex = 6;
             toolStrip1.Text = "toolStrip1";
             // 
@@ -334,17 +243,17 @@
             tsbBuscar.ToolTipText = "Buscar";
             tsbBuscar.Click += tsbBuscar_Click;
             // 
-            // frmUsuarios
+            // frmAutores
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(763, 513);
+            ClientSize = new Size(746, 387);
             Controls.Add(bCancelar);
             Controls.Add(pEncabezado);
             Controls.Add(toolStrip1);
-            Name = "frmUsuarios";
-            Text = "ABC Usuarios";
-            Load += frmUsuarios_Load;
+            Name = "frmAutores";
+            Text = "ABC Autores";
+            Load += frmAutores_Load;
             pEncabezado.ResumeLayout(false);
             pEncabezado.PerformLayout();
             toolStrip1.ResumeLayout(false);
@@ -374,13 +283,5 @@
         private ToolStripButton tsbEliminar;
         private ToolStripSeparator toolStripSeparator3;
         private ToolStripButton tsbBuscar;
-        private ComboBox cbRol;
-        private TextBox tbTelefono;
-        private Label label4;
-        private TextBox tbCorreo;
-        private Label label3;
-        private Label label2;
-        private TextBox tbClave;
-        private Label label1;
     }
 }

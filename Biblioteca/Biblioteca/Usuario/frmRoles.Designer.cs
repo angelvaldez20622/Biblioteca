@@ -55,7 +55,7 @@
             // bCancelar
             // 
             bCancelar.Image = (Image)resources.GetObject("bCancelar.Image");
-            bCancelar.Location = new Point(801, 350);
+            bCancelar.Location = new Point(656, 268);
             bCancelar.Name = "bCancelar";
             bCancelar.Size = new Size(76, 69);
             bCancelar.TabIndex = 5;
@@ -68,9 +68,9 @@
             pEncabezado.Controls.Add(lNombre);
             pEncabezado.Controls.Add(tbId);
             pEncabezado.Controls.Add(lId);
-            pEncabezado.Location = new Point(-65, 132);
+            pEncabezado.Location = new Point(12, 83);
             pEncabezado.Name = "pEncabezado";
-            pEncabezado.Size = new Size(942, 163);
+            pEncabezado.Size = new Size(720, 163);
             pEncabezado.TabIndex = 4;
             // 
             // tbNombre
@@ -116,7 +116,7 @@
             toolStrip1.Items.AddRange(new ToolStripItem[] { tsbPrimero, tsbAnterior, tsbSiguiente, tsbUltimo, toolStripSeparator1, tsbGuardar, tsbEditar, tsbNuevo, toolStripSeparator2, tsbEliminar, toolStripSeparator3, tsbBuscar });
             toolStrip1.Location = new Point(0, 0);
             toolStrip1.Name = "toolStrip1";
-            toolStrip1.Size = new Size(919, 71);
+            toolStrip1.Size = new Size(763, 71);
             toolStrip1.TabIndex = 3;
             toolStrip1.Text = "toolStrip1";
             // 
@@ -159,7 +159,7 @@
             // tsbUltimo
             // 
             tsbUltimo.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            tsbUltimo.Image = (Image)resources.GetObject("tsbUltimo.Image");
+            tsbUltimo.Image = Properties.Resources.Siguiente_21;
             tsbUltimo.ImageScaling = ToolStripItemImageScaling.None;
             tsbUltimo.ImageTransparentColor = Color.Magenta;
             tsbUltimo.Name = "tsbUltimo";
@@ -247,7 +247,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(919, 450);
+            ClientSize = new Size(763, 359);
             Controls.Add(bCancelar);
             Controls.Add(pEncabezado);
             Controls.Add(toolStrip1);

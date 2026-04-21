@@ -34,7 +34,7 @@ namespace Biblioteca.Clases
             SqlDataReader dr;
             CAutores obj = null;
             cxn = CConexion_BD.getcxn();
-            string consulta = "select top 1 * from Autores where id_autor<" + miObjeto.Id + " order by id desc";
+            string consulta = "select top 1 * from Autores where id_autor<" + miObjeto.Id + " order by id_autor desc";
             cmd = new SqlCommand(consulta, cxn);
 
             cxn.Open();
@@ -115,7 +115,7 @@ namespace Biblioteca.Clases
 
             cxn = CConexion_BD.getcxn();
             string consulta = "insert into Autores " +
-                              "(id, nombre) " +
+                              "(id_autor, nombre) " +
                               "values (" + miObjeto.Id + ", '"
                                         + miObjeto.Nombre +
                                          "' )";
@@ -198,7 +198,7 @@ namespace Biblioteca.Clases
             CAutores obj = null;
 
             cxn = CConexion_BD.getcxn();
-            string Consulta = "select top 1 * from Autores order by id desc";
+            string Consulta = "select top 1 * from Autores order by id_autor desc";
             cmd = new SqlCommand(Consulta, cxn);
             cxn.Open();
             try
