@@ -34,7 +34,7 @@ namespace Biblioteca.Clases
             SqlDataReader dr;
             CCategoriaLibros obj = null;
             cxn = CConexion_BD.getcxn();
-            string consulta = "select top 1 * from CategoriaLibros where id_categoria<" + miObjeto.Id + " order by id desc";
+            string consulta = "select top 1 * from CategoriaLibros where id_categoria<" + miObjeto.Id + " order by id_categoria desc";
             cmd = new SqlCommand(consulta, cxn);
 
             cxn.Open();
@@ -115,7 +115,7 @@ namespace Biblioteca.Clases
 
             cxn = CConexion_BD.getcxn();
             string consulta = "insert into CategoriaLibros " +
-                              "(id, nombre) " +
+                              "(id_categoria, nombre) " +
                               "values (" + miObjeto.Id + ", '"
                                         + miObjeto.Nombre +
                                          "' )";
@@ -198,7 +198,7 @@ namespace Biblioteca.Clases
             CCategoriaLibros obj = null;
 
             cxn = CConexion_BD.getcxn();
-            string Consulta = "select top 1 * from CategoriaLibros order by id desc";
+            string Consulta = "select top 1 * from CategoriaLibros order by id_categoria desc";
             cmd = new SqlCommand(Consulta, cxn);
             cxn.Open();
             try

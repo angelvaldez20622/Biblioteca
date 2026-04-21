@@ -47,5 +47,16 @@ namespace Biblioteca
                 f.ShowDialog();
             }
         }
+
+        private void categoriasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAyuda ayuda = new frmAyuda("Vista de Categoria de libros", "id_categoria", "nombre", "CategoriaLibros", "WHERE id_categoria IN ( SELECT TOP 10 id_categoria FROM CategoriaLibros ORDER BY id_categoria DESC)");
+            ayuda.ShowDialog();
+            if (ayuda.seleccion == "si")
+            {
+                frmCategoriaLibros f = new frmCategoriaLibros();
+                f.ShowDialog();
+            }
+        }
     }
 }

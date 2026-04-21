@@ -53,8 +53,18 @@ VALUES
     (2, 'Cliente'),
     (3, 'Empleado');
 
+    INSERT INTO CategoriaLibros (id_categoria, nombre)
+VALUES 
+    (1, 'Ficción'),
+    (2, 'Ciencia Ficción'),
+    (3, 'Historia'),
+    (4, 'Biografías'),
+    (5, 'Terror');
+
 -----------------------------------------consultas------------------------------------------------------------
 select * from Roles
 select top 10 * from Roles
 select top 1 * from Usuarios order by id_usuario desc
 select * from Usuarios
+SELECT TOP 10 id_categoria FROM CategoriaLibros ORDER BY id_categoria DESc
+select * from CategoriaLibros

@@ -42,7 +42,7 @@ namespace Biblioteca.Usuario
             DataTable dt = new DataTable();
 
             consulta = "select " + campotabla1 + " Clave," +
-                       campotabla2 + " busqueda, * from " + tabla + " " + Condicion + " order by busqueda";
+                       campotabla2 + " busqueda, * from " + tabla + " " + Condicion ;
 
             dt = CConexion_BD.Consulta(consulta);
             dv = new DataView(dt);
