@@ -40,7 +40,7 @@ namespace Biblioteca.Clases
             SqlDataReader dr;
             CUsuarios obj = null;
             cxn = CConexion_BD.getcxn();
-            string consulta = "select top 1 * from Usuarios where id_usuario<" + miObjeto.Id + " order by id desc";
+            string consulta = "select top 1 * from Usuarios where id_usuario<" + miObjeto.Id + " order by id_usuario desc";
             cmd = new SqlCommand(consulta, cxn);
 
             cxn.Open();
@@ -147,7 +147,7 @@ namespace Biblioteca.Clases
 
             cxn = CConexion_BD.getcxn();
             string consulta = "insert into Usuarios " +
-                              "(id, nombre, clave, id_rol, correo,telefono) " +
+                              "(id_usuario, nombre, clave, id_rol, correo,telefono) " +
                               "values (" + miObjeto.Id + ","
                                        + "'" + miObjeto.Nombre + "',"
                                        + "'" + miObjeto.Clave + "', "
@@ -207,7 +207,7 @@ namespace Biblioteca.Clases
             SqlDataReader dr;
             CUsuarios obj = null;
             cxn = CConexion_BD.getcxn();
-            string consulta = "select top 1 * from Usuarios where id_usuario>" + miObjeto.Id;
+            string consulta = "select top 1 * from Usuarios where id_usuario >" + miObjeto.Id;
             cmd = new SqlCommand(consulta, cxn);
 
             cxn.Open();
@@ -234,7 +234,7 @@ namespace Biblioteca.Clases
             CUsuarios obj = null;
 
             cxn = CConexion_BD.getcxn();
-            string Consulta = "select top 1 * from Usuarios order by id desc";
+            string Consulta = "select top 1 * from Usuarios order by id_usuario desc";
             cmd = new SqlCommand(Consulta, cxn);
             cxn.Open();
             try

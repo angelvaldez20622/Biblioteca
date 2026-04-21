@@ -1,4 +1,5 @@
-﻿using Biblioteca.Clases;
+﻿using Biblioteca.Base_de_datos;
+using Biblioteca.Clases;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,22 +10,29 @@ using System.Windows.Forms;
 
 namespace Biblioteca.Usuario
 {
-    public partial class frmRoles : Form
+    public partial class frmUsuarios : Form
     {
-        CRoles miObjeto = CRoles.ultimo();
+        CUsuarios miObjeto = CUsuarios.ultimo();
         bool nuevo = false;
-        public frmRoles()
+        public frmUsuarios()
         {
             InitializeComponent();
         }
 
-        private void frmRoles_Load(object sender, EventArgs e)
+        private void frmUsuarios_Load(object sender, EventArgs e)
         {
             Configuracion();
             Mostrar(miObjeto);
             ActivarHerramientas();
+            mostrarTipos();
         }
         #region Metodos de formulario
+        void mostrarTipos()
+        {
+            cbRol.DataSource = CConexion_BD.Consulta("select id_rol,nombre from Roles");
+            cbRol.DisplayMember = "nombre";
+            cbRol.ValueMember = "id_rol";
+        }
         void ActivarHerramientas()
         {
             tsbPrimero.Enabled = true;
@@ -60,18 +68,28 @@ namespace Biblioteca.Usuario
         {
             tbId.Text = "";
             tbNombre.Text = "";
+            tbClave.Text = "";
+            tbCorreo.Text = "";
+            tbTelefono.Text = "";
         }
-        void cargarObjetos(CRoles obj)
+        void cargarObjetos(CUsuarios obj)
         {
             obj.Id = int.Parse(tbId.Text);
             obj.Nombre = tbNombre.Text;
+            obj.Clave = tbClave.Text;
+            obj.Rol = CRoles.buscar(cbRol.SelectedValue.ToString());
+            obj.Correo = tbCorreo.Text;
+            obj.Telefono = tbTelefono.Text;
         }
-        void Mostrar(CRoles obj)
+        void Mostrar(CUsuarios obj)
         {
             if (obj == null)
                 return;
             tbId.Text = obj.Id.ToString();
             tbNombre.Text = obj.Nombre;
+            cbRol.SelectedValue = obj.Rol.Id;
+            tbCorreo.Text = obj.Correo;
+            tbTelefono.Text = obj.Telefono;
         }
 
         #endregion
@@ -80,7 +98,7 @@ namespace Biblioteca.Usuario
         {
             if (miObjeto == null)
                 return;
-            miObjeto = CRoles.primero();
+            miObjeto = CUsuarios.primero();
             Mostrar(miObjeto);
         }
 
@@ -88,7 +106,7 @@ namespace Biblioteca.Usuario
         {
             if (miObjeto == null)
                 return;
-            CRoles obj = CRoles.anterior(miObjeto);
+            CUsuarios obj = CUsuarios.anterior(miObjeto);
             if (obj != null)
             {
                 miObjeto = obj;
@@ -100,7 +118,7 @@ namespace Biblioteca.Usuario
         {
             if (miObjeto == null)
                 return;
-            CRoles obj = CRoles.siguiente(miObjeto);
+            CUsuarios obj = CUsuarios.siguiente(miObjeto);
             if (obj != null)
             {
                 miObjeto = obj;
@@ -112,7 +130,7 @@ namespace Biblioteca.Usuario
         {
             if (miObjeto == null)
                 return;
-            miObjeto = CRoles.ultimo();
+            miObjeto = CUsuarios.ultimo();
             Mostrar(miObjeto);
         }
 
@@ -123,12 +141,12 @@ namespace Biblioteca.Usuario
                 MessageBox.Show("Campos Incompletos");
                 return;
             }
-            CRoles obj = new CRoles();
+            CUsuarios obj = new CUsuarios();
             cargarObjetos(obj);
             ActivarHerramientas();
             if (nuevo == true)
             {
-                if (!CRoles.guardar(obj))
+                if (!CUsuarios.guardar(obj))
                 {
                     MessageBox.Show("No se puede agregar el rol: Informe a sistemas");
                 }
@@ -140,7 +158,7 @@ namespace Biblioteca.Usuario
             }
             else
             {
-                if (CRoles.Modificar(obj))
+                if (CUsuarios.Modificar(obj))
                 {
                     miObjeto = obj;
                 }
@@ -163,7 +181,7 @@ namespace Biblioteca.Usuario
             nuevo = true;
             desActivarHerramientas();
             limpiarCT();
-            CRoles obj = CRoles.ultimo();
+            CUsuarios obj = CUsuarios.ultimo();
             tbId.Text = obj == null ? "1" : Convert.ToString(obj.Id + 1);
             tbNombre.Focus();
         }
@@ -174,15 +192,15 @@ namespace Biblioteca.Usuario
             opcion = MessageBox.Show("Estas seguro de eliminar este registro......?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (opcion == DialogResult.Yes)
             {
-                if (!CRoles.eliminar(miObjeto))
+                if (!CUsuarios.eliminar(miObjeto))
                 {
                     MessageBox.Show("Nose pudo eliminar el registro: Reporte a sistemas");
                 }
                 else
                 {
-                    miObjeto = CRoles.siguiente(miObjeto);
+                    miObjeto = CUsuarios.siguiente(miObjeto);
                     if (miObjeto == null)
-                        miObjeto = CRoles.ultimo();
+                        miObjeto = CUsuarios.ultimo();
                     if (miObjeto == null)
                         limpiarCT();
                 }
@@ -194,11 +212,11 @@ namespace Biblioteca.Usuario
         private void tsbBuscar_Click(object sender, EventArgs e)
         {
             if (miObjeto == null) return;
-            frmBuscador ayuda = new frmBuscador("Buscador de Roles", "id_rol", "Nombre", "Roles", " ");
+            frmBuscador ayuda = new frmBuscador("Buscador de Usuarios", "id_usuario", "nombre", "Usuarios", " ");
             ayuda.ShowDialog();
             if (ayuda.clave != "")
             {
-                miObjeto = CRoles.buscar(ayuda.clave);
+                miObjeto = CUsuarios.buscar(ayuda.clave);
                 Mostrar(miObjeto);
             }
         }
@@ -210,10 +228,19 @@ namespace Biblioteca.Usuario
 
         #endregion
         #region Configuraciones
-      
+        private void tbTelefono_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
         public void Configuracion()
-        {   
+        {
+            tbTelefono.MaxLength = 10;
             tbNombre.MaxLength = 100;
+            tbClave.MaxLength = 100;
+            tbCorreo.MaxLength = 100;
         }
         #endregion
 

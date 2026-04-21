@@ -32,10 +32,10 @@
             menuStrip1 = new MenuStrip();
             articulosToolStripMenuItem = new ToolStripMenuItem();
             clientesToolStripMenuItem = new ToolStripMenuItem();
-            prestamosToolStripMenuItem = new ToolStripMenuItem();
-            pictureBox2 = new PictureBox();
             usuariosToolStripMenuItem = new ToolStripMenuItem();
             rolesToolStripMenuItem = new ToolStripMenuItem();
+            prestamosToolStripMenuItem = new ToolStripMenuItem();
+            pictureBox2 = new PictureBox();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -63,6 +63,20 @@
             clientesToolStripMenuItem.Size = new Size(79, 24);
             clientesToolStripMenuItem.Text = "Usuarios";
             // 
+            // usuariosToolStripMenuItem
+            // 
+            usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
+            usuariosToolStripMenuItem.Size = new Size(224, 26);
+            usuariosToolStripMenuItem.Text = "Usuarios";
+            usuariosToolStripMenuItem.Click += usuariosToolStripMenuItem_Click;
+            // 
+            // rolesToolStripMenuItem
+            // 
+            rolesToolStripMenuItem.Name = "rolesToolStripMenuItem";
+            rolesToolStripMenuItem.Size = new Size(224, 26);
+            rolesToolStripMenuItem.Text = "Roles";
+            rolesToolStripMenuItem.Click += rolesToolStripMenuItem_Click;
+            // 
             // prestamosToolStripMenuItem
             // 
             prestamosToolStripMenuItem.Name = "prestamosToolStripMenuItem";
@@ -78,19 +92,6 @@
             pictureBox2.Size = new Size(1001, 565);
             pictureBox2.TabIndex = 2;
             pictureBox2.TabStop = false;
-            // 
-            // usuariosToolStripMenuItem
-            // 
-            usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
-            usuariosToolStripMenuItem.Size = new Size(224, 26);
-            usuariosToolStripMenuItem.Text = "Usuarios";
-            // 
-            // rolesToolStripMenuItem
-            // 
-            rolesToolStripMenuItem.Name = "rolesToolStripMenuItem";
-            rolesToolStripMenuItem.Size = new Size(224, 26);
-            rolesToolStripMenuItem.Text = "Roles";
-            rolesToolStripMenuItem.Click += rolesToolStripMenuItem_Click;
             // 
             // Menu
             // 

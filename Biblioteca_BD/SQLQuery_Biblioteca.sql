@@ -55,3 +55,6 @@ VALUES
 
 -----------------------------------------consultas------------------------------------------------------------
 select * from Roles
+select top 10 * from Roles
+select top 1 * from Usuarios order by id_usuario desc
+select * from Usuarios

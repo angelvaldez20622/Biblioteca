@@ -28,11 +28,22 @@ namespace Biblioteca
 
         private void rolesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmAyuda ayuda = new frmAyuda("Ayuda de Roles", "id_rol", "Nombre", "Roles", "WHERE id_rol IN ( SELECT TOP 3 id_rol FROM Roles ORDER BY id_rol DESC)");
+            frmAyuda ayuda = new frmAyuda("Vista de Roles", "id_rol", "Nombre", "Roles", "WHERE id_rol IN ( SELECT TOP 10 id_rol FROM Roles ORDER BY id_rol DESC)");
             ayuda.ShowDialog();
             if (ayuda.seleccion == "si")
             {
                 frmRoles f = new frmRoles();
+                f.ShowDialog();
+            }
+        }
+
+        private void usuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAyuda ayuda = new frmAyuda("Vista de Usuarios", "id_usuario", "nombre", "Usuarios", "WHERE id_usuario IN ( SELECT TOP 10 id_usuario FROM Usuarios ORDER BY id_usuario DESC)");
+            ayuda.ShowDialog();
+            if (ayuda.seleccion == "si")
+            {
+                frmUsuarios f = new frmUsuarios();
                 f.ShowDialog();
             }
         }
