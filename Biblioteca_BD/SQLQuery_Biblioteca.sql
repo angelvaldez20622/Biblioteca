@@ -18,7 +18,8 @@ id_libro int primary key,
 nombre varchar(100) not null,
 id_autor int foreign key (id_autor) references Autores,
 año int not null,
-id_categoria int foreign key (id_categoria) references CategoriaLibros
+id_categoria int foreign key (id_categoria) references CategoriaLibros,
+existencias int,
 )
 
 --drop table Usuarios
@@ -41,6 +42,16 @@ fecha_termino varchar(100) not null,
 id_libro int foreign key (id_libro) references Libros
 )
 
+
+----------------------------------------------inserts----------------------------------------------------------
 insert into Roles (id_rol,nombre) values (1,'Administrador')
 insert into Usuarios (id_usuario, nombre,clave, id_rol, correo, telefono) values (1,'Angel','1234',1, 'no asignado', '6683235367')
 insert into Usuarios (id_usuario, nombre,clave, id_rol, correo, telefono) values (2,'Dilan','1234',1, 'no asignado', '6981147670')
+
+INSERT INTO Roles (id_rol, nombre)
+VALUES 
+    (2, 'Cliente'),
+    (3, 'Empleado');
+
+-----------------------------------------consultas------------------------------------------------------------
+select * from Roles

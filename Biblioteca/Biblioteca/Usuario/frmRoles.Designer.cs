@@ -60,6 +60,7 @@
             bCancelar.Size = new Size(76, 69);
             bCancelar.TabIndex = 5;
             bCancelar.UseVisualStyleBackColor = true;
+            bCancelar.Click += bCancelar_Click_1;
             // 
             // pEncabezado
             // 
@@ -74,7 +75,6 @@
             // 
             // tbNombre
             // 
-            tbNombre.Enabled = false;
             tbNombre.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             tbNombre.Location = new Point(173, 91);
             tbNombre.Name = "tbNombre";
@@ -130,6 +130,7 @@
             tsbPrimero.Size = new Size(68, 68);
             tsbPrimero.Text = "toolStripButton2";
             tsbPrimero.ToolTipText = "Primero";
+            tsbPrimero.Click += tsbPrimero_Click;
             // 
             // tsbAnterior
             // 
@@ -141,6 +142,7 @@
             tsbAnterior.Size = new Size(68, 68);
             tsbAnterior.Text = "toolStripButton2";
             tsbAnterior.ToolTipText = "Anterior";
+            tsbAnterior.Click += tsbAnterior_Click;
             // 
             // tsbSiguiente
             // 
@@ -152,6 +154,7 @@
             tsbSiguiente.Size = new Size(68, 68);
             tsbSiguiente.Text = "toolStripButton2";
             tsbSiguiente.ToolTipText = "Siguiente";
+            tsbSiguiente.Click += tsbSiguiente_Click;
             // 
             // tsbUltimo
             // 
@@ -163,6 +166,7 @@
             tsbUltimo.Size = new Size(68, 68);
             tsbUltimo.Text = "toolStripButton2";
             tsbUltimo.ToolTipText = "Ultimo";
+            tsbUltimo.Click += tsbUltimo_Click;
             // 
             // toolStripSeparator1
             // 
@@ -179,6 +183,7 @@
             tsbGuardar.Size = new Size(68, 68);
             tsbGuardar.Text = "toolStripButton2";
             tsbGuardar.ToolTipText = "Guardar";
+            tsbGuardar.Click += tsbGuardar_Click;
             // 
             // tsbEditar
             // 
@@ -190,6 +195,7 @@
             tsbEditar.Size = new Size(68, 68);
             tsbEditar.Text = "toolStripButton2";
             tsbEditar.ToolTipText = "Editar";
+            tsbEditar.Click += tsbEditar_Click;
             // 
             // tsbNuevo
             // 
@@ -201,6 +207,7 @@
             tsbNuevo.Size = new Size(68, 68);
             tsbNuevo.Text = "toolStripButton2";
             tsbNuevo.ToolTipText = "Nuevo";
+            tsbNuevo.Click += tsbNuevo_Click;
             // 
             // toolStripSeparator2
             // 
@@ -217,6 +224,7 @@
             tsbEliminar.Size = new Size(68, 68);
             tsbEliminar.Text = "toolStripButton2";
             tsbEliminar.ToolTipText = "Eliminar";
+            tsbEliminar.Click += tsbEliminar_Click;
             // 
             // toolStripSeparator3
             // 
@@ -233,6 +241,7 @@
             tsbBuscar.Size = new Size(68, 68);
             tsbBuscar.Text = "toolStripButton2";
             tsbBuscar.ToolTipText = "Buscar";
+            tsbBuscar.Click += tsbBuscar_Click;
             // 
             // frmRoles
             // 

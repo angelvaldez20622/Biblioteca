@@ -31,10 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             menuStrip1 = new MenuStrip();
             articulosToolStripMenuItem = new ToolStripMenuItem();
-            empleadosToolStripMenuItem = new ToolStripMenuItem();
             clientesToolStripMenuItem = new ToolStripMenuItem();
             prestamosToolStripMenuItem = new ToolStripMenuItem();
             pictureBox2 = new PictureBox();
+            usuariosToolStripMenuItem = new ToolStripMenuItem();
+            rolesToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -42,7 +43,7 @@
             // menuStrip1
             // 
             menuStrip1.ImageScalingSize = new Size(20, 20);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { articulosToolStripMenuItem, empleadosToolStripMenuItem, clientesToolStripMenuItem, prestamosToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { articulosToolStripMenuItem, clientesToolStripMenuItem, prestamosToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(1001, 28);
@@ -55,17 +56,12 @@
             articulosToolStripMenuItem.Size = new Size(89, 24);
             articulosToolStripMenuItem.Text = "Inventario";
             // 
-            // empleadosToolStripMenuItem
-            // 
-            empleadosToolStripMenuItem.Name = "empleadosToolStripMenuItem";
-            empleadosToolStripMenuItem.Size = new Size(97, 24);
-            empleadosToolStripMenuItem.Text = "Empleados";
-            // 
             // clientesToolStripMenuItem
             // 
+            clientesToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { usuariosToolStripMenuItem, rolesToolStripMenuItem });
             clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
-            clientesToolStripMenuItem.Size = new Size(75, 24);
-            clientesToolStripMenuItem.Text = "Clientes";
+            clientesToolStripMenuItem.Size = new Size(79, 24);
+            clientesToolStripMenuItem.Text = "Usuarios";
             // 
             // prestamosToolStripMenuItem
             // 
@@ -82,6 +78,19 @@
             pictureBox2.Size = new Size(1001, 565);
             pictureBox2.TabIndex = 2;
             pictureBox2.TabStop = false;
+            // 
+            // usuariosToolStripMenuItem
+            // 
+            usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
+            usuariosToolStripMenuItem.Size = new Size(224, 26);
+            usuariosToolStripMenuItem.Text = "Usuarios";
+            // 
+            // rolesToolStripMenuItem
+            // 
+            rolesToolStripMenuItem.Name = "rolesToolStripMenuItem";
+            rolesToolStripMenuItem.Size = new Size(224, 26);
+            rolesToolStripMenuItem.Text = "Roles";
+            rolesToolStripMenuItem.Click += rolesToolStripMenuItem_Click;
             // 
             // Menu
             // 
@@ -108,9 +117,10 @@
 
         private MenuStrip menuStrip1;
         private ToolStripMenuItem articulosToolStripMenuItem;
-        private ToolStripMenuItem empleadosToolStripMenuItem;
         private ToolStripMenuItem clientesToolStripMenuItem;
         private ToolStripMenuItem prestamosToolStripMenuItem;
         private PictureBox pictureBox2;
+        private ToolStripMenuItem usuariosToolStripMenuItem;
+        private ToolStripMenuItem rolesToolStripMenuItem;
     }
 }

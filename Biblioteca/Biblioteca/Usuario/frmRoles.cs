@@ -8,7 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 
 namespace Biblioteca.Usuario
-{ 
+{
     public partial class frmRoles : Form
     {
         CRoles miObjeto = CRoles.ultimo();
@@ -193,7 +193,7 @@ namespace Biblioteca.Usuario
         private void tsbBuscar_Click(object sender, EventArgs e)
         {
             if (miObjeto == null) return;
-            frmAyuda ayuda = new frmAyuda("Ayuda de Roles", "id_rol", "Nombre", "Roles", " ");
+            frmBuscador ayuda = new frmBuscador("Buscador de Roles", "id_rol", "Nombre", "Roles", " ");
             ayuda.ShowDialog();
             if (ayuda.clave != "")
             {
@@ -201,11 +201,14 @@ namespace Biblioteca.Usuario
                 Mostrar(miObjeto);
             }
         }
-        private void bCancelar_Click(object sender, EventArgs e)
+        private void bCancelar_Click_1(object sender, EventArgs e)
         {
             ActivarHerramientas();
             limpiarCT();
         }
+
         #endregion
+
+
     }
 }

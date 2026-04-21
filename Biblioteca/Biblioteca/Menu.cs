@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Biblioteca.Usuario;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -23,6 +24,17 @@ namespace Biblioteca
         private void Menu_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void rolesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAyuda ayuda = new frmAyuda("Ayuda de Roles", "id_rol", "Nombre", "Roles", "WHERE id_rol IN ( SELECT TOP 3 id_rol FROM Roles ORDER BY id_rol DESC)");
+            ayuda.ShowDialog();
+            if (ayuda.seleccion == "si")
+            {
+                frmRoles f = new frmRoles();
+                f.ShowDialog();
+            }
         }
     }
 }
