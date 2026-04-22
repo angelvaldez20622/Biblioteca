@@ -79,6 +79,7 @@
             librosToolStripMenuItem.Name = "librosToolStripMenuItem";
             librosToolStripMenuItem.Size = new Size(224, 26);
             librosToolStripMenuItem.Text = "Libros";
+            librosToolStripMenuItem.Click += librosToolStripMenuItem_Click;
             // 
             // clientesToolStripMenuItem
             // 

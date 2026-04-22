@@ -61,6 +61,28 @@ VALUES
     (4, 'Biografías'),
     (5, 'Terror');
 
+INSERT INTO Autores (id_autor, nombre)
+VALUES 
+    (1, 'Miguel de Cervantes'),
+    (2, 'Gabriel García Márquez'),
+    (3, 'Isaac Asimov'),
+    (4, 'Stephen Hawking'),
+    (5, 'Ana Frank'),
+    (6, 'Stephen King'); 
+
+INSERT INTO Libros (id_libro, nombre, id_autor, año, id_categoria, existencias)
+VALUES 
+    (1, 'El Quijote', 1, 1605, 1, 15),
+    (2, 'Cien años de soledad', 2, 1967, 1, 20),
+    (3, 'Fundación', 3, 1951, 2, 8),
+    (4, 'Breve historia del tiempo', 4, 1988, 3, 12),
+    (5, 'El diario de Ana Frank', 5, 1947, 4, 30),
+    (6, 'It', 6, 1986, 5, 5),
+    (7, 'Crónica de una muerte anunciada', 2, 1981, 1, 10),
+    (8, 'Libro Antiguo Descatalogado', 1, 1850, 3, 0),
+    (9, 'Proyecto Abandonado', 3, 2010, 2, 0),
+    (10, 'Edición Agotada', 4, 1995, 4, 0);
+
 -----------------------------------------consultas------------------------------------------------------------
 select * from Roles
 select top 10 * from Roles
@@ -68,3 +90,5 @@ select top 1 * from Usuarios order by id_usuario desc
 select * from Usuarios
 SELECT TOP 10 id_categoria FROM CategoriaLibros ORDER BY id_categoria DESc
 select * from CategoriaLibros
+select * from Autores
+select * from Libros

@@ -14,17 +14,19 @@ namespace Biblioteca.Clases
         public CAutores Autor { get; set; }
         public int Año { get; set; }
         public CCategoriaLibros CategoriaLibros { get; set; }
+        public int Existencias { get; set; }
         #endregion
 
         #region Constructores
         public CLibros() { }
-        public CLibros(int Id, string Nom, CAutores AU, int Añ, CCategoriaLibros CLib)
+        public CLibros(int Id, string Nom, CAutores AU, int Añ, CCategoriaLibros CLib, int exi)
         {
             this.Id = Id;
             Nombre = Nom;
             Autor = AU;
             Año = Añ;
             CategoriaLibros = CLib;
+            Existencias = exi;
         }
         #endregion
 
@@ -38,7 +40,7 @@ namespace Biblioteca.Clases
             SqlDataReader dr;
             CLibros obj = null;
             cxn = CConexion_BD.getcxn();
-            string consulta = "select top 1 * from Libros where id_libro<" + miObjeto.Id + " order by id desc";
+            string consulta = "select top 1 * from Libros where id_libro<" + miObjeto.Id + " order by id_libro desc";
             cmd = new SqlCommand(consulta, cxn);
 
             cxn.Open();
@@ -119,12 +121,13 @@ namespace Biblioteca.Clases
 
             cxn = CConexion_BD.getcxn();
             string consulta = "insert into Libros " +
-                              "(id_libro, nombre, id_autor, año, id_categoria) " +
+                              "(id_libro, nombre, id_autor, año, id_categoria, existencias) " +
                               "values (" + miObjeto.Id + ", "
                                        + "'" + miObjeto.Nombre + "', "
                                         + miObjeto.Autor.Id + ", "
                                        + "'" + miObjeto.Año + "', "
-                                       + "'" + miObjeto.CategoriaLibros.Id +
+                                       + "'" + miObjeto.CategoriaLibros.Id + "', "
+                                       + "'" + miObjeto.Existencias +
                                          "')";
             cmd = new SqlCommand(consulta, cxn);
             cxn.Open();
@@ -205,7 +208,7 @@ namespace Biblioteca.Clases
             CLibros obj = null;
 
             cxn = CConexion_BD.getcxn();
-            string Consulta = "select top 1 * from Libros order by id desc";
+            string Consulta = "select top 1 * from Libros order by id_libro desc";
             cmd = new SqlCommand(Consulta, cxn);
             cxn.Open();
             try
@@ -234,6 +237,7 @@ namespace Biblioteca.Clases
                               ", id_autor =" + miObjeto.Autor.Id +
                               ", año =" + miObjeto.Año +
                               ", id_categoria ='" + miObjeto.CategoriaLibros.Id + "'" +
+                              ", existencias ='" + miObjeto.Existencias + "'" +
                               " where id_libro =" + miObjeto.Id;
             cmd = new SqlCommand(consulta, cxn);
             cxn.Open();
@@ -256,7 +260,8 @@ namespace Biblioteca.Clases
                                   Convert.ToString(dr["nombre"]),
                                   CAutores.buscar(Convert.ToString(dr["id_autor"])),
                                   Convert.ToInt32(dr["año"]),
-                                  CCategoriaLibros.buscar(Convert.ToString(dr["id_categoria"])));
+                                  CCategoriaLibros.buscar(Convert.ToString(dr["id_categoria"])),
+                                  Convert.ToInt32(dr["existencias"]));
         }
         #endregion
     }

@@ -19,6 +19,9 @@
     <Compile Update="Usuario\frmCategoriaLibros.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Usuario\frmLibros.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Usuario\frmRoles.cs">
       <SubType>Form</SubType>
     </Compile>

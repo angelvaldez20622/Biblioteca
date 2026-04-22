@@ -90,3 +90,4 @@ C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyec
 C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.Usuario.frmUsuarios.resources
 C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.Usuario.frmCategoriaLibros.resources
 C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.Usuario.frmAutores.resources
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.Usuario.frmLibros.resources

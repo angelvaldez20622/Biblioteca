@@ -69,5 +69,16 @@ namespace Biblioteca
                 f.ShowDialog();
             }
         }
+
+        private void librosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAyuda ayuda = new frmAyuda("Vista de Libros", "id_libro", "nombre", "Libros", "WHERE id_libro IN ( SELECT TOP 10 id_libro FROM Libros ORDER BY id_libro DESC)");
+            ayuda.ShowDialog();
+            if (ayuda.seleccion == "si")
+            {
+                frmLibros f = new frmLibros();
+                f.ShowDialog();
+            }
+        }
     }
 }

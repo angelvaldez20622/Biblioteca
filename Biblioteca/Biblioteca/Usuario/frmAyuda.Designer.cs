@@ -64,6 +64,7 @@
             dgvAyuda.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvAyuda.Location = new Point(23, 95);
             dgvAyuda.Name = "dgvAyuda";
+            dgvAyuda.ReadOnly = true;
             dgvAyuda.RowHeadersWidth = 51;
             dgvAyuda.Size = new Size(962, 402);
             dgvAyuda.TabIndex = 2;
