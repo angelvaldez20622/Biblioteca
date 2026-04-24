@@ -10,30 +10,27 @@ using System.Windows.Forms;
 
 namespace Biblioteca.Usuario
 {
-    public partial class frmUsuarios : Form
+    public partial class frmPrestamos : Form
     {
-        CUsuarios miObjeto = CUsuarios.ultimo();
+        CPrestamos miObjeto = CPrestamos.ultimo();
         bool nuevo = false;
-        public frmUsuarios()
+       
+
+        public frmPrestamos()
         {
             InitializeComponent();
         }
 
-        private void frmUsuarios_Load(object sender, EventArgs e)
+        private void frmPrestamos_Load(object sender, EventArgs e)
         {
             Configuracion();
             Mostrar(miObjeto);
             ActivarHerramientas();
-            mostrarTipos();
+
         }
 
         #region Metodos de formulario
-        void mostrarTipos()
-        {
-            cbRol.DataSource = CConexion_BD.Consulta("select id_rol,nombre from Roles");
-            cbRol.DisplayMember = "nombre";
-            cbRol.ValueMember = "id_rol";
-        }
+
         void ActivarHerramientas()
         {
             tsbPrimero.Enabled = true;
@@ -68,38 +65,78 @@ namespace Biblioteca.Usuario
         void limpiarCT()
         {
             tbId.Text = "";
-            tbNombre.Text = "";
-            tbClave.Text = "";
-            tbCorreo.Text = "";
-            tbTelefono.Text = "";
+            tbPrestador.Text = "";
+            tbSolicitador.Text = "";
+            tbLibro.Text = "";
+
         }
-        void cargarObjetos(CUsuarios obj)
+        void cargarObjetos(CPrestamos obj)
         {
             obj.Id = int.Parse(tbId.Text);
-            obj.Nombre = tbNombre.Text;
-            obj.Clave = tbClave.Text;
-            obj.Rol = CRoles.buscar(cbRol.SelectedValue.ToString());
-            obj.Correo = tbCorreo.Text;
-            obj.Telefono = tbTelefono.Text;
+            obj.Usuario = CUsuarios.buscarNombre(tbPrestador.Text);
+            obj.Cliente = CUsuarios.buscarNombre(tbSolicitador.Text);
+            obj.Libro = CLibros.buscarNombre(tbLibro.Text);
+            if (chbDevuelto.Checked == true)
+                obj.Devuelto = "si";
+            else
+                obj.Devuelto = "no";
+            obj.FechaInicio = DateTime.Now;
+            obj.FechaTermino = dtpTermino.Value;
         }
-        void Mostrar(CUsuarios obj)
+        void Mostrar(CPrestamos obj)
         {
             if (obj == null)
                 return;
             tbId.Text = obj.Id.ToString();
-            tbNombre.Text = obj.Nombre;
-            cbRol.SelectedValue = obj.Rol.Id;
-            tbCorreo.Text = obj.Correo;
-            tbTelefono.Text = obj.Telefono;
+            tbSolicitador.Text = obj.Cliente.Nombre;
+           
+            tbPrestador.Text = obj.Usuario.Nombre;
+            
+            tbLibro.Text = obj.Libro.Nombre;
+            
+            dtpTermino.Value = obj.FechaTermino;
         }
-
+        private void bPrestador_Click(object sender, EventArgs e)
+        {
+            if (miObjeto == null) return;
+            frmBuscador ayuda = new frmBuscador("Buscador de Usuario", "id_Usuario", "Nombre", "Usuarios", " ");
+            ayuda.ShowDialog();
+            if (ayuda.clave != "")
+            {
+                miObjeto.Usuario = CUsuarios.buscar(ayuda.clave);
+                tbPrestador.Text = miObjeto.Usuario.Nombre;
+            }
+        }
+        private void bSolicitador_Click(object sender, EventArgs e)
+        {
+            if (miObjeto == null) return;
+            frmBuscador ayuda = new frmBuscador("Buscador de Cliente", "id_Usuario", "Nombre", "Usuarios", " ");
+            ayuda.ShowDialog();
+            if (ayuda.clave != "")
+            {
+                miObjeto.Cliente = CUsuarios.buscar(ayuda.clave);
+                tbSolicitador.Text = miObjeto.Cliente.Nombre;
+            }
+        }
+        private void bLibro_Click(object sender, EventArgs e)
+        {
+            if (miObjeto == null) return;
+            frmBuscador ayuda = new frmBuscador("Buscador de Libro", "id_libro", "Nombre", "Libros", " ");
+            ayuda.ShowDialog();
+            if (ayuda.clave != "")
+            {
+                miObjeto.Libro = CLibros.buscar(ayuda.clave);
+                tbLibro.Text = miObjeto.Libro.Nombre;
+            }
+        }
         #endregion
+
         #region toolsbar
         private void tsbPrimero_Click(object sender, EventArgs e)
         {
             if (miObjeto == null)
                 return;
-            miObjeto = CUsuarios.primero();
+            miObjeto = CPrestamos.primero();
             Mostrar(miObjeto);
         }
 
@@ -107,7 +144,7 @@ namespace Biblioteca.Usuario
         {
             if (miObjeto == null)
                 return;
-            CUsuarios obj = CUsuarios.anterior(miObjeto);
+            CPrestamos obj = CPrestamos.anterior(miObjeto);
             if (obj != null)
             {
                 miObjeto = obj;
@@ -119,7 +156,7 @@ namespace Biblioteca.Usuario
         {
             if (miObjeto == null)
                 return;
-            CUsuarios obj = CUsuarios.siguiente(miObjeto);
+            CPrestamos obj = CPrestamos.siguiente(miObjeto);
             if (obj != null)
             {
                 miObjeto = obj;
@@ -131,25 +168,25 @@ namespace Biblioteca.Usuario
         {
             if (miObjeto == null)
                 return;
-            miObjeto = CUsuarios.ultimo();
+            miObjeto = CPrestamos.ultimo();
             Mostrar(miObjeto);
         }
 
         private void tsbGuardar_Click(object sender, EventArgs e)
         {
-            if (tbId.Text == "" || tbNombre.Text == "")
+            if (tbId.Text == "" || tbSolicitador.Text == "" || tbPrestador.Text == "" || tbLibro.Text == "")
             {
                 MessageBox.Show("Campos Incompletos");
                 return;
             }
-            CUsuarios obj = new CUsuarios();
+            CPrestamos obj = new CPrestamos();
             cargarObjetos(obj);
             ActivarHerramientas();
             if (nuevo == true)
             {
-                if (!CUsuarios.guardar(obj))
+                if (!CPrestamos.guardar(obj))
                 {
-                    MessageBox.Show("No se puede agregar el rol: Informe a sistemas");
+                    MessageBox.Show("No se puede agregar el prestamo: Informe a sistemas");
                 }
                 else
                 {
@@ -159,7 +196,7 @@ namespace Biblioteca.Usuario
             }
             else
             {
-                if (CUsuarios.Modificar(obj))
+                if (CPrestamos.Modificar(obj))
                 {
                     miObjeto = obj;
                 }
@@ -174,7 +211,6 @@ namespace Biblioteca.Usuario
             nuevo = false;
             desActivarHerramientas();
             tbId.Enabled = false;
-            tbNombre.Focus();
         }
 
         private void tsbNuevo_Click(object sender, EventArgs e)
@@ -182,9 +218,9 @@ namespace Biblioteca.Usuario
             nuevo = true;
             desActivarHerramientas();
             limpiarCT();
-            CUsuarios obj = CUsuarios.ultimo();
+            CPrestamos obj = CPrestamos.ultimo();
             tbId.Text = obj == null ? "1" : Convert.ToString(obj.Id + 1);
-            tbNombre.Focus();
+
         }
 
         private void tsbEliminar_Click(object sender, EventArgs e)
@@ -193,15 +229,15 @@ namespace Biblioteca.Usuario
             opcion = MessageBox.Show("Estas seguro de eliminar este registro......?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (opcion == DialogResult.Yes)
             {
-                if (!CUsuarios.eliminar(miObjeto))
+                if (!CPrestamos.eliminar(miObjeto))
                 {
                     MessageBox.Show("Nose pudo eliminar el registro: Reporte a sistemas");
                 }
                 else
                 {
-                    miObjeto = CUsuarios.siguiente(miObjeto);
+                    miObjeto = CPrestamos.siguiente(miObjeto);
                     if (miObjeto == null)
-                        miObjeto = CUsuarios.ultimo();
+                        miObjeto = CPrestamos.ultimo();
                     if (miObjeto == null)
                         limpiarCT();
                 }
@@ -213,11 +249,11 @@ namespace Biblioteca.Usuario
         private void tsbBuscar_Click(object sender, EventArgs e)
         {
             if (miObjeto == null) return;
-            frmBuscador ayuda = new frmBuscador("Buscador de Usuarios", "id_usuario", "nombre", "Usuarios", " ");
+            frmBuscador ayuda = new frmBuscador("Buscador de Prestamos", "id_prestamo", "id_usuario", "Prestamos", " ");
             ayuda.ShowDialog();
             if (ayuda.clave != "")
             {
-                miObjeto = CUsuarios.buscar(ayuda.clave);
+                miObjeto = CPrestamos.buscar(ayuda.clave);
                 Mostrar(miObjeto);
             }
         }
@@ -228,6 +264,7 @@ namespace Biblioteca.Usuario
         }
 
         #endregion
+
         #region Configuraciones
         private void tbTelefono_KeyPress(object sender, KeyPressEventArgs e)
         {
@@ -238,13 +275,12 @@ namespace Biblioteca.Usuario
         }
         public void Configuracion()
         {
-            tbTelefono.MaxLength = 10;
-            tbNombre.MaxLength = 100;
-            tbClave.MaxLength = 100;
-            tbCorreo.MaxLength = 100;
+
         }
         #endregion
 
 
+
+       
     }
 }

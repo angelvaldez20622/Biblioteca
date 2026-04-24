@@ -15,11 +15,12 @@ namespace Biblioteca.Clases
         public DateTime FechaInicio { get; set; }
         public DateTime FechaTermino { get; set; }
         public CLibros Libro { get; set; }
+        public string Devuelto { get; set; }
         #endregion
 
         #region Constructores
         public CPrestamos() { }
-        public CPrestamos(int Id, CUsuarios Usu, CUsuarios Cli, DateTime FI, DateTime FT, CLibros Lib)
+        public CPrestamos(int Id, CUsuarios Usu, CUsuarios Cli, DateTime FI, DateTime FT, CLibros Lib, string dev)
         {
             this.Id = Id;
             Usuario = Usu;
@@ -27,6 +28,7 @@ namespace Biblioteca.Clases
             FechaInicio = FI;
             FechaTermino = FT;
             Libro = Lib;
+            Devuelto = dev;
         }
         #endregion
 
@@ -121,17 +123,19 @@ namespace Biblioteca.Clases
 
 
             cxn = CConexion_BD.getcxn();
-            string consulta = "insert into Prestamos " +
-                              "(id_prestamo, id_usuario, id_cliente, fecha_inicio, fecha_termino, id_libro) " +
-                              "values (" + miObjeto.Id + ","
-                                       + "'" + miObjeto.Usuario.Id + "',"
-                                       + "'" + miObjeto.Cliente.Id + "', "
-                                       + miObjeto.FechaInicio + ","
-                                       + "'" + miObjeto.FechaInicio.ToString("dd/MM/yyyy") + "', "
-                                       + "'" + miObjeto.FechaTermino.ToString("dd/MM/yyyy") + "', "
-                                       + "'" + miObjeto.Libro.Id +
-                                       "')";
+            string consulta = "INSERT INTO Prestamos (id_prestamo, id_usuario, id_cliente, fecha_inicio, fecha_termino, id_libro, devuelto) " +
+                   "VALUES (@id, @usuario, @cliente, @inicio, @termino, @libro, @devuelto)";
+
             cmd = new SqlCommand(consulta, cxn);
+            
+            cmd.Parameters.AddWithValue("@id", miObjeto.Id);
+            cmd.Parameters.AddWithValue("@usuario", miObjeto.Usuario.Id);
+            cmd.Parameters.AddWithValue("@cliente", miObjeto.Cliente.Id);
+            cmd.Parameters.AddWithValue("@inicio", miObjeto.FechaInicio); 
+            cmd.Parameters.AddWithValue("@termino", miObjeto.FechaTermino);
+            cmd.Parameters.AddWithValue("@libro", miObjeto.Libro.Id);
+            cmd.Parameters.AddWithValue("@devuelto", miObjeto.Devuelto);
+           
             cxn.Open();
             try
             {
@@ -234,14 +238,19 @@ namespace Biblioteca.Clases
             SqlCommand cmd;
 
             cxn = CConexion_BD.getcxn();
-            string consulta = "update Prestamos set " +
-                              " id_usuario ='" + miObjeto.Usuario.Id + "'" +
-                              ", id_cliente = '" + miObjeto.Cliente.Id + "'" +
-                              ", fecha_inicio =" + miObjeto.FechaInicio.ToString("dd,MM,yyyy") +
-                              ", fecha_termino ='" + miObjeto.FechaTermino.ToString("dd,MM,yyyy") + "'" +
-                              ", id_libro ='" + miObjeto.Libro.Id + "'" +
-                              " where id_prestamo =" + miObjeto.Id;
+            string consulta = "update Prestamos set id_usuario = @usuario, id_cliente = @cliente, " +
+                "fecha_inicio = @inicio, fecha_termino = @termino, id_libro = @libro, devuelto = @devuelto where id_prestamo = @id";
+
+
             cmd = new SqlCommand(consulta, cxn);
+            cmd.Parameters.AddWithValue("@id", miObjeto.Id);
+            cmd.Parameters.AddWithValue("@usuario", miObjeto.Usuario.Id);
+            cmd.Parameters.AddWithValue("@cliente", miObjeto.Cliente.Id);
+            cmd.Parameters.AddWithValue("@inicio", miObjeto.FechaInicio);
+            cmd.Parameters.AddWithValue("@termino", miObjeto.FechaTermino);
+            cmd.Parameters.AddWithValue("@libro", miObjeto.Libro.Id);
+            cmd.Parameters.AddWithValue("@devuelto", miObjeto.Devuelto);
+            
             cxn.Open();
             try
             {
@@ -263,7 +272,8 @@ namespace Biblioteca.Clases
                                   CUsuarios.buscar(Convert.ToString(dr["id_cliente"])),
                                   Convert.ToDateTime(dr["fecha_inicio"]),
                                   Convert.ToDateTime(dr["fecha_termino"]),
-                                  CLibros.buscar(Convert.ToString(dr["id_libro"])));
+                                  CLibros.buscar(Convert.ToString(dr["id_libro"])),
+                                  Convert.ToString(dr["devuelto"]));
         }
         #endregion
     }

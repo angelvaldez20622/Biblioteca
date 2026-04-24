@@ -84,6 +84,31 @@ namespace Biblioteca.Clases
             cxn.Close();
             return obj;
         }
+        internal static CLibros buscarNombre(string nombre)
+        {
+
+            SqlConnection cxn;
+            SqlCommand cmd;
+            SqlDataReader dr;
+            CLibros obj = null;
+            cxn = CConexion_BD.getcxn();
+            string consulta = "select * from Libros where nombre='" + nombre + "'";
+            cmd = new SqlCommand(consulta, cxn);
+            cxn.Open();
+            try
+            {
+                dr = cmd.ExecuteReader();
+                if (dr.Read())
+                    obj = crearObjeto(dr);
+
+            }
+            catch (SqlException e)
+            {
+                System.Console.Error.Write(e.Message);
+            }
+            cxn.Close();
+            return obj;
+        }
 
         internal static bool eliminar(CLibros miObjeto)
         {

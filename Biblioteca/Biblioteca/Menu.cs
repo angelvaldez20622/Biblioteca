@@ -80,5 +80,16 @@ namespace Biblioteca
                 f.ShowDialog();
             }
         }
+
+        private void prestamosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAyudaPrestamos ayuda = new frmAyudaPrestamos("Vista de¨Prestamos", "id_Prestamo", "id_libro", "Prestamos", "WHERE id_prestamo IN ( SELECT TOP 10 id_prestamo FROM Libros ORDER BY id_prestamo DESC)");
+            ayuda.ShowDialog();
+            if (ayuda.seleccion == "si")
+            {
+                frmPrestamos f = new frmPrestamos();
+                f.ShowDialog();
+            }
+        }
     }
 }

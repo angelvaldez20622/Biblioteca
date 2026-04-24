@@ -63,21 +63,21 @@
             // categoriasToolStripMenuItem
             // 
             categoriasToolStripMenuItem.Name = "categoriasToolStripMenuItem";
-            categoriasToolStripMenuItem.Size = new Size(224, 26);
+            categoriasToolStripMenuItem.Size = new Size(163, 26);
             categoriasToolStripMenuItem.Text = "Categorias";
             categoriasToolStripMenuItem.Click += categoriasToolStripMenuItem_Click;
             // 
             // autoresToolStripMenuItem
             // 
             autoresToolStripMenuItem.Name = "autoresToolStripMenuItem";
-            autoresToolStripMenuItem.Size = new Size(224, 26);
+            autoresToolStripMenuItem.Size = new Size(163, 26);
             autoresToolStripMenuItem.Text = "Autores";
             autoresToolStripMenuItem.Click += autoresToolStripMenuItem_Click;
             // 
             // librosToolStripMenuItem
             // 
             librosToolStripMenuItem.Name = "librosToolStripMenuItem";
-            librosToolStripMenuItem.Size = new Size(224, 26);
+            librosToolStripMenuItem.Size = new Size(163, 26);
             librosToolStripMenuItem.Text = "Libros";
             librosToolStripMenuItem.Click += librosToolStripMenuItem_Click;
             // 
@@ -107,6 +107,7 @@
             prestamosToolStripMenuItem.Name = "prestamosToolStripMenuItem";
             prestamosToolStripMenuItem.Size = new Size(91, 24);
             prestamosToolStripMenuItem.Text = "Prestamos";
+            prestamosToolStripMenuItem.Click += prestamosToolStripMenuItem_Click;
             // 
             // pictureBox2
             // 

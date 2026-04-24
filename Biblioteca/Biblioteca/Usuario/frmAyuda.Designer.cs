@@ -33,6 +33,8 @@
             dgvAyuda = new DataGridView();
             bAmpliar = new Button();
             bSalir = new Button();
+            label2 = new Label();
+            cbFiltro = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)dgvAyuda).BeginInit();
             SuspendLayout();
             // 
@@ -50,7 +52,7 @@
             tbBusca.Font = new Font("Segoe UI", 12F);
             tbBusca.Location = new Point(84, 39);
             tbBusca.Name = "tbBusca";
-            tbBusca.Size = new Size(872, 34);
+            tbBusca.Size = new Size(705, 34);
             tbBusca.TabIndex = 1;
             tbBusca.TextChanged += tbBusca_TextChanged;
             // 
@@ -68,6 +70,7 @@
             dgvAyuda.RowHeadersWidth = 51;
             dgvAyuda.Size = new Size(962, 402);
             dgvAyuda.TabIndex = 2;
+            dgvAyuda.CellContentClick += dgvAyuda_CellContentClick;
             // 
             // bAmpliar
             // 
@@ -89,11 +92,32 @@
             bSalir.UseVisualStyleBackColor = true;
             bSalir.Click += bSalir_Click;
             // 
+            // label2
+            // 
+            label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.Location = new Point(795, 39);
+            label2.Name = "label2";
+            label2.Size = new Size(52, 36);
+            label2.TabIndex = 5;
+            label2.Text = "Por:";
+            // 
+            // cbFiltro
+            // 
+            cbFiltro.DropDownStyle = ComboBoxStyle.DropDownList;
+            cbFiltro.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            cbFiltro.FormattingEnabled = true;
+            cbFiltro.Location = new Point(834, 39);
+            cbFiltro.Name = "cbFiltro";
+            cbFiltro.Size = new Size(151, 36);
+            cbFiltro.TabIndex = 13;
+            // 
             // frmAyuda
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1024, 638);
+            Controls.Add(cbFiltro);
+            Controls.Add(label2);
             Controls.Add(bSalir);
             Controls.Add(bAmpliar);
             Controls.Add(dgvAyuda);
@@ -114,5 +138,7 @@
         private DataGridView dgvAyuda;
         private Button bAmpliar;
         private Button bSalir;
+        private Label label2;
+        private ComboBox cbFiltro;
     }
 }

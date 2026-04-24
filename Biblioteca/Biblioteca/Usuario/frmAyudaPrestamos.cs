@@ -9,8 +9,9 @@ using System.Windows.Forms;
 
 namespace Biblioteca.Usuario
 {
-    public partial class frmAyuda : Form
+    public partial class frmAyudaPrestamos : Form
     {
+
         private string nombreFormulario;
         private string campotabla1;
         private string campotabla2;
@@ -22,8 +23,7 @@ namespace Biblioteca.Usuario
         public string descripcion;
         DataView dv;
         DataSet ds = new DataSet();
-
-        public frmAyuda(string nom, string cam1, string cam2, string tab, string Con)
+        public frmAyudaPrestamos(string nom, string cam1, string cam2, string tab, string Con)
         {
             nombreFormulario = nom;
             campotabla1 = cam1;
@@ -33,12 +33,16 @@ namespace Biblioteca.Usuario
             InitializeComponent();
         }
 
-        private void frmAyuda_Load(object sender, EventArgs e)
+        private void frmAyudaPrestamos_Load(object sender, EventArgs e)
         {
-            llenarGrid();
+            llenarGrid1();
+            llenarGrid2();
+            llenarComboBoxs();
+        }
 
-
-            // Limpiar el ComboBox para evitar duplicados
+        private void llenarComboBoxs()
+        {
+            // ---------------------------cbFiltro----------------------------------
             cbFiltro.Items.Clear();
 
             // Recorrer las columnas del DataGridView
@@ -53,8 +57,22 @@ namespace Biblioteca.Usuario
             {
                 cbFiltro.SelectedIndex = 0;
             }
+
+            //-----------------------------cbFiltro2-------------------------------
+            cbFiltro2.Items.Clear();
+            foreach (DataGridViewColumn columna in dgvAyudaDevolver.Columns)
+            {
+                // Agregamos el nombre (o el texto de la cabecera) al ComboBox
+                cbFiltro2.Items.Add(columna.HeaderText);
+            }
+
+            // Opcional: Seleccionar el primer elemento por defecto
+            if (cbFiltro2.Items.Count > 0)
+            {
+                cbFiltro2.SelectedIndex = 0;
+            }
         }
-        private void llenarGrid()
+        private void llenarGrid1()
         {
             clave = descripcion = "";
             this.Text = nombreFormulario;
@@ -69,12 +87,28 @@ namespace Biblioteca.Usuario
 
             dgvAyuda.DataSource = dv;
             seleccion = "no";
-        }
 
+        }
+        private void llenarGrid2()
+        {
+            clave = descripcion = "";
+            this.Text = nombreFormulario;
+            ds.Clear();
+            string consulta;
+            DataTable dt = new DataTable();
+
+            consulta = "select top 20 * from " + tabla + " " + Condicion + " and devuelto = 'no'";
+
+            dt = CConexion_BD.Consulta(consulta);
+            dv = new DataView(dt);
+
+            dgvAyudaDevolver.DataSource = dv;
+            seleccion = "no";
+        }
         private void tbBusca_TextChanged(object sender, EventArgs e)
         {
             Condicion = $"where {cbFiltro.Text} like '%{tbBusca.Text}%'";
-            llenarGrid();
+            llenarGrid1();
         }
 
         private void bSalir_Click(object sender, EventArgs e)
@@ -88,9 +122,10 @@ namespace Biblioteca.Usuario
             Close();
         }
 
-        private void dgvAyuda_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void tbBusca1_TextChanged(object sender, EventArgs e)
         {
-
+            Condicion = $"where {cbFiltro2.Text} like '%{tbBusca2.Text}%'";
+            llenarGrid2();
         }
     }
 }
