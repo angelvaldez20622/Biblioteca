@@ -251,6 +251,8 @@
             Controls.Add(bCancelar);
             Controls.Add(pEncabezado);
             Controls.Add(toolStrip1);
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "frmCategoriaLibros";
             Text = "ABC Categoria de Libros";
             Load += frmCategoriaLibros_Load;

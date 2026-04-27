@@ -21,6 +21,8 @@ namespace Biblioteca.Usuario
 
         private void frmLibros_Load(object sender, EventArgs e)
         {
+            EstiloFormulario.Aplicar(this, toolStrip1, pEncabezado, bCancelar, "📚  Libros");
+            EstiloFormulario.AplicarComboBoxes(cbAutor, cbCategoria); // ← extra para los combos
             Configuracion();
             Mostrar(miObjeto);
             ActivarHerramientas();

@@ -83,6 +83,7 @@
             // 
             // lNombre
             // 
+            lNombre.BackColor = Color.Aquamarine;
             lNombre.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lNombre.Location = new Point(12, 91);
             lNombre.Name = "lNombre";
@@ -102,6 +103,7 @@
             // 
             // lId
             // 
+            lId.BackColor = Color.Aquamarine;
             lId.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lId.Location = new Point(82, 35);
             lId.Name = "lId";
@@ -251,6 +253,8 @@
             Controls.Add(bCancelar);
             Controls.Add(pEncabezado);
             Controls.Add(toolStrip1);
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "frmAutores";
             Text = "ABC Autores";
             Load += frmAutores_Load;

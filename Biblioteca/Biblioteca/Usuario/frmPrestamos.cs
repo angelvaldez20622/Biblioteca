@@ -23,6 +23,9 @@ namespace Biblioteca.Usuario
 
         private void frmPrestamos_Load(object sender, EventArgs e)
         {
+            EstiloFormulario.Aplicar(this, toolStrip1, pEncabezado, bCancelar, "▶  Préstamos");
+            EstiloFormulario.AplicarBotonesBusqueda(bPrestador, bSolicitador, bLibro);
+            EstiloFormulario.AplicarCheckBox(chbDevuelto);
             Configuracion();
             Mostrar(miObjeto);
             ActivarHerramientas();

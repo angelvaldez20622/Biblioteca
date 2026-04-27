@@ -116,6 +116,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1034, 600);
+            ControlBox = false;
             Controls.Add(label2);
             Controls.Add(cbFiltro);
             Controls.Add(bSalir);
@@ -123,6 +124,8 @@
             Controls.Add(dgvAyuda);
             Controls.Add(tbBusca);
             Controls.Add(label1);
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "frmBuscador";
             Text = "frmBuscador";
             Load += frmBuscador_Load;

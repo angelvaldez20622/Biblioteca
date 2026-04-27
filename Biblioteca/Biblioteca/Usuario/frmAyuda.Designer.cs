@@ -116,6 +116,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1024, 638);
+            ControlBox = false;
             Controls.Add(cbFiltro);
             Controls.Add(label2);
             Controls.Add(bSalir);

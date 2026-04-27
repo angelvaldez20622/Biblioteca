@@ -251,6 +251,8 @@
             Controls.Add(bCancelar);
             Controls.Add(pEncabezado);
             Controls.Add(toolStrip1);
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "frmRoles";
             Text = "ABC Roles";
             Load += frmRoles_Load;

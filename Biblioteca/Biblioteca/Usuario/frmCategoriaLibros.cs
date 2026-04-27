@@ -20,6 +20,7 @@ namespace Biblioteca.Usuario
 
         private void frmCategoriaLibros_Load(object sender, EventArgs e)
         {
+            EstiloFormulario.Aplicar(this, toolStrip1, pEncabezado, bCancelar, "🏷  Categoría de Libros");
             Configuracion();
             Mostrar(miObjeto);
             ActivarHerramientas();
@@ -75,6 +76,7 @@ namespace Biblioteca.Usuario
         }
 
         #endregion
+
         #region toolsbar
         private void tsbPrimero_Click(object sender, EventArgs e)
         {
@@ -209,12 +211,15 @@ namespace Biblioteca.Usuario
         }
 
         #endregion
+
         #region Configuraciones
 
         public void Configuracion()
         {
             tbNombre.MaxLength = 100;
         }
+       
         #endregion
     }
+   
 }

@@ -128,6 +128,7 @@
             Controls.Add(menuStrip1);
             Icon = (Icon)resources.GetObject("$this.Icon");
             MainMenuStrip = menuStrip1;
+            MaximizeBox = false;
             Name = "Menu";
             Text = "Menu";
             WindowState = FormWindowState.Maximized;

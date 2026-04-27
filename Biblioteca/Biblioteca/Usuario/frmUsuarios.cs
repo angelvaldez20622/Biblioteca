@@ -21,6 +21,8 @@ namespace Biblioteca.Usuario
 
         private void frmUsuarios_Load(object sender, EventArgs e)
         {
+            EstiloFormulario.Aplicar(this, toolStrip1, pEncabezado, bCancelar, "👤  Usuarios");
+            EstiloFormulario.AplicarComboBoxes(cbRol);
             Configuracion();
             Mostrar(miObjeto);
             ActivarHerramientas();

@@ -244,6 +244,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1070, 612);
+            ControlBox = false;
             Controls.Add(tabPrestamos);
             Name = "frmAyudaPrestamos";
             Text = "ABC Vista de Prestamos";

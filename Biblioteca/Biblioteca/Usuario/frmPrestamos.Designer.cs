@@ -383,6 +383,8 @@
             Controls.Add(bCancelar);
             Controls.Add(pEncabezado);
             Controls.Add(toolStrip1);
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "frmPrestamos";
             Text = "ABC Prestamos";
             Load += frmPrestamos_Load;

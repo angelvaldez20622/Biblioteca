@@ -20,6 +20,7 @@ namespace Biblioteca.Usuario
 
         private void frmRoles_Load(object sender, EventArgs e)
         {
+            EstiloFormulario.Aplicar(this, toolStrip1, pEncabezado, bCancelar, "🔑  Roles");
             Configuracion();
             Mostrar(miObjeto);
             ActivarHerramientas();
@@ -215,6 +216,7 @@ namespace Biblioteca.Usuario
         {   
             tbNombre.MaxLength = 100;
         }
+       
         #endregion
 
 

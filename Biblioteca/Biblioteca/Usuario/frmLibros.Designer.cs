@@ -345,6 +345,8 @@
             Controls.Add(bCancelar);
             Controls.Add(pEncabezado);
             Controls.Add(toolStrip1);
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "frmLibros";
             Text = "ABC Libros";
             Load += frmLibros_Load;
