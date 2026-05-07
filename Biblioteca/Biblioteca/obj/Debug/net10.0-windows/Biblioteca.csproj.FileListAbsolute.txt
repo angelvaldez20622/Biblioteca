@@ -93,3 +93,39 @@ C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyec
 C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.Usuario.frmLibros.resources
 C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.Usuario.frmAyudaPrestamos.resources
 C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\Proyecto Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.Usuario.frmPrestamos.resources
+C:\Git proyect\Biblioteca\Biblioteca\Biblioteca\Biblioteca\bin\Debug\net10.0-windows\Biblioteca.exe
+C:\Git proyect\Biblioteca\Biblioteca\Biblioteca\Biblioteca\bin\Debug\net10.0-windows\Biblioteca.deps.json
+C:\Git proyect\Biblioteca\Biblioteca\Biblioteca\Biblioteca\bin\Debug\net10.0-windows\Biblioteca.runtimeconfig.json
+C:\Git proyect\Biblioteca\Biblioteca\Biblioteca\Biblioteca\bin\Debug\net10.0-windows\Biblioteca.dll
+C:\Git proyect\Biblioteca\Biblioteca\Biblioteca\Biblioteca\bin\Debug\net10.0-windows\Biblioteca.pdb
+C:\Git proyect\Biblioteca\Biblioteca\Biblioteca\Biblioteca\bin\Debug\net10.0-windows\System.Data.SqlClient.dll
+C:\Git proyect\Biblioteca\Biblioteca\Biblioteca\Biblioteca\bin\Debug\net10.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Git proyect\Biblioteca\Biblioteca\Biblioteca\Biblioteca\bin\Debug\net10.0-windows\runtimes\win-x64\native\sni.dll
+C:\Git proyect\Biblioteca\Biblioteca\Biblioteca\Biblioteca\bin\Debug\net10.0-windows\runtimes\win-x86\native\sni.dll
+C:\Git proyect\Biblioteca\Biblioteca\Biblioteca\Biblioteca\bin\Debug\net10.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Git proyect\Biblioteca\Biblioteca\Biblioteca\Biblioteca\bin\Debug\net10.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Git proyect\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.csproj.AssemblyReference.cache
+C:\Git proyect\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.IniciarSesion.resources
+C:\Git proyect\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.Menu.resources
+C:\Git proyect\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.Properties.Resources.resources
+C:\Git proyect\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.Usuario.frmAutores.resources
+C:\Git proyect\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.Usuario.frmAyuda.resources
+C:\Git proyect\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.Usuario.frmAyudaPrestamos.resources
+C:\Git proyect\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.Usuario.frmBuscador.resources
+C:\Git proyect\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.Usuario.frmCategoriaLibros.resources
+C:\Git proyect\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.Usuario.frmLibros.resources
+C:\Git proyect\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.Usuario.frmPrestamos.resources
+C:\Git proyect\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.Usuario.frmRoles.resources
+C:\Git proyect\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.Usuario.frmUsuarios.resources
+C:\Git proyect\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.csproj.GenerateResource.cache
+C:\Git proyect\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git proyect\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.AssemblyInfoInputs.cache
+C:\Git proyect\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.AssemblyInfo.cs
+C:\Git proyect\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.csproj.CoreCompileInputs.cache
+C:\Git proyect\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.sourcelink.json
+C:\Git proyect\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.csproj.Up2Date
+C:\Git proyect\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.dll
+C:\Git proyect\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\refint\Biblioteca.dll
+C:\Git proyect\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.pdb
+C:\Git proyect\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\Biblioteca.genruntimeconfig.cache
+C:\Git proyect\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net10.0-windows\ref\Biblioteca.dll

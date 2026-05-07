@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Proyecto Biblioteca\\Biblioteca\\Biblioteca\\",
+  "WorkspaceRootPath": "C:\\Git proyect\\Biblioteca\\Biblioteca\\Biblioteca\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|c:\\sistemas\\semestre 6\\ambientes colaborativos y control de versiones git\\proyecto biblioteca\\biblioteca\\biblioteca\\biblioteca\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|C:\\Git proyect\\Biblioteca\\Biblioteca\\Biblioteca\\biblioteca\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|c:\\git proyect\\biblioteca\\biblioteca\\biblioteca\\biblioteca\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|c:\\sistemas\\semestre 6\\ambientes colaborativos y control de versiones git\\proyecto biblioteca\\biblioteca\\biblioteca\\biblioteca\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|c:\\git proyect\\biblioteca\\biblioteca\\biblioteca\\biblioteca\\base de datos\\cconexion_bd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\base de datos\\cconexion_bd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,15 +22,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "CConexion_BD.cs",
+              "DocumentMoniker": "C:\\Git proyect\\Biblioteca\\Biblioteca\\Biblioteca\\Biblioteca\\Base de datos\\CConexion_BD.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\Base de datos\\CConexion_BD.cs",
+              "ToolTip": "C:\\Git proyect\\Biblioteca\\Biblioteca\\Biblioteca\\Biblioteca\\Base de datos\\CConexion_BD.cs",
+              "RelativeToolTip": "Biblioteca\\Base de datos\\CConexion_BD.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAvwB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T02:35:22.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Menu.cs",
-              "DocumentMoniker": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Proyecto Biblioteca\\Biblioteca\\Biblioteca\\Biblioteca\\Menu.cs",
+              "DocumentMoniker": "C:\\Git proyect\\Biblioteca\\Biblioteca\\Biblioteca\\Biblioteca\\Menu.cs",
               "RelativeDocumentMoniker": "Biblioteca\\Menu.cs",
-              "ToolTip": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Proyecto Biblioteca\\Biblioteca\\Biblioteca\\Biblioteca\\Menu.cs",
+              "ToolTip": "C:\\Git proyect\\Biblioteca\\Biblioteca\\Biblioteca\\Biblioteca\\Menu.cs",
               "RelativeToolTip": "Biblioteca\\Menu.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAmwBQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -35,11 +56,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Menu.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Proyecto Biblioteca\\Biblioteca\\Biblioteca\\Biblioteca\\Menu.cs",
+              "DocumentMoniker": "C:\\Git proyect\\Biblioteca\\Biblioteca\\Biblioteca\\Biblioteca\\Menu.cs",
               "RelativeDocumentMoniker": "Biblioteca\\Menu.cs",
-              "ToolTip": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Proyecto Biblioteca\\Biblioteca\\Biblioteca\\Biblioteca\\Menu.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Git proyect\\Biblioteca\\Biblioteca\\Biblioteca\\Biblioteca\\Menu.cs [Dise\u00F1o]",
               "RelativeToolTip": "Biblioteca\\Menu.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-26T23:18:42.85Z",

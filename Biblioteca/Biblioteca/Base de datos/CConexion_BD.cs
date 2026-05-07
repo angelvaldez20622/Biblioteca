@@ -14,8 +14,8 @@ namespace Biblioteca.Base_de_datos
         {
             SqlConnection cxn;
             //string cadena = @"Data Source=(local)\SQLEXPRESS;Initial Catalog=ChachoProject;Integrated Security=yes";
-            string cadena = @"Data Source=(local)\SQLEXPRESS;Initial Catalog=Biblioteca_BD;Integrated Security=yes";
-            //string cadena = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Biblioteca_BD;Integrated Security=True";
+            //string cadena = @"Data Source=(local)\SQLEXPRESS;Initial Catalog=Biblioteca_BD;Integrated Security=yes";
+            string cadena = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Biblioteca_BD;Integrated Security=True";
             cxn = new SqlConnection(cadena);
             return cxn;
         }
@@ -23,8 +23,8 @@ namespace Biblioteca.Base_de_datos
         {
             DataTable dt = new DataTable();
             //var conn = new SqlConnection(@"Data Source=(local)\SQLEXPRESS;Initial Catalog=ChachoProject;Integrated Security=yes");
-            var conn = new SqlConnection(@"Data Source=(local)\SQLEXPRESS;Initial Catalog=Biblioteca_BD;Integrated Security=yes");
-            //var conn = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Biblioteca_BD;Integrated Security=True");
+            //var conn = new SqlConnection(@"Data Source=(local)\SQLEXPRESS;Initial Catalog=Biblioteca_BD;Integrated Security=yes");
+            var conn = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Biblioteca_BD;Integrated Security=True");
             conn.Open();
             SqlDataAdapter da = new SqlDataAdapter(elSelect, conn);
             da.Fill(dt);
