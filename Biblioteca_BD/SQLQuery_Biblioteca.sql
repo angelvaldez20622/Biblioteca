@@ -161,3 +161,105 @@ select * from Autores
 select * from Libros
 select * from Libros where nombre like '%p%'
 select * from Prestamos
+-----------------------------------procedimiento almacenados--------------------------------------------------
+CREATE PROCEDURE sp_RegistrarPrestamo
+    @id_prestamo INT,
+    @id_usuario INT,
+    @id_cliente INT,
+    @fecha_inicio DATETIME,
+    @fecha_termino DATETIME,
+    @id_libro INT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    -- 1. Validar si hay existencias del libro
+    IF (SELECT existencias FROM Libros WHERE id_libro = @id_libro) > 0
+    BEGIN
+        -- 2. Insertar el préstamo (la columna devuelto se pone en 'no' por defecto)
+        INSERT INTO Prestamos (id_prestamo, id_usuario, id_cliente, fecha_inicio, fecha_termino, id_libro, devuelto)
+        VALUES (@id_prestamo, @id_usuario, @id_cliente, @fecha_inicio, @fecha_termino, @id_libro, 'no');
+
+        -- 3. Restar 1 a las existencias del libro
+        UPDATE Libros
+        SET existencias = existencias - 1
+        WHERE id_libro = @id_libro;
+
+        PRINT 'Préstamo registrado con éxito y stock actualizado.';
+    END
+    ELSE
+    BEGIN
+        -- Si no hay existencias, lanza un mensaje de error
+        RAISERROR('No hay existencias disponibles para este libro.', 16, 1);
+    END
+END;
+
+CREATE PROCEDURE sp_RegistrarDevolucion
+    @id_prestamo INT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    -- Verificar primero si el préstamo existe y no ha sido devuelto ya
+    IF EXISTS (SELECT 1 FROM Prestamos WHERE id_prestamo = @id_prestamo AND devuelto = 'no')
+    BEGIN
+        -- 1. Declarar variable para saber qué libro se está devolviendo
+        DECLARE @id_libro INT;
+        SELECT @id_libro = id_libro FROM Prestamos WHERE id_prestamo = @id_prestamo;
+
+        -- 2. Actualizar el estado del préstamo
+        UPDATE Prestamos
+        SET devuelto = 'si'
+        WHERE id_prestamo = @id_prestamo;
+
+        -- 3. Sumar 1 a las existencias del libro regresado
+        UPDATE Libros
+        SET existencias = existencias + 1
+        WHERE id_libro = @id_libro;
+
+        PRINT 'Devolución procesada correctamente y stock recuperado.';
+    END
+    ELSE
+    BEGIN
+        RAISERROR('El préstamo no existe o ya fue devuelto anteriormente.', 16, 1);
+    END
+END;
+
+CREATE PROCEDURE sp_AltaLibroNuevo
+    @id_libro INT,
+    @nombre VARCHAR(100),
+    @id_autor INT,
+    @año INT,
+    @id_categoria INT,
+    @existencias INT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    -- 1. Validar si el ID del libro ya está registrado
+    IF EXISTS (SELECT 1 FROM Libros WHERE id_libro = @id_libro)
+    BEGIN
+        RAISERROR('El ID de libro ya existe. Elige un código diferente.', 16, 1);
+        RETURN;
+    END
+
+    -- 2. Validar si el Autor realmente existe en la tabla Autores
+    IF NOT EXISTS (SELECT 1 FROM Autores WHERE id_autor = @id_autor)
+    BEGIN
+        RAISERROR('El ID de Autor especificado no existe. Regístralo primero.', 16, 1);
+        RETURN;
+    END
+
+    -- 3. Validar si la Categoría realmente existe
+    IF NOT EXISTS (SELECT 1 FROM CategoriaLibros WHERE id_categoria = @id_categoria)
+    BEGIN
+        RAISERROR('El ID de Categoría especificado no existe.', 16, 1);
+        RETURN;
+    END
+
+    -- 4. Si todo está bien, se realiza la inserción segura
+    INSERT INTO Libros (id_libro, nombre, id_autor, año, id_categoria, existencias)
+    VALUES (@id_libro, @nombre, @id_autor, @año, @id_categoria, @existencias);
+
+    PRINT 'Libro registrado con éxito en el inventario.';
+END;

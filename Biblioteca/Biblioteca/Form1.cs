@@ -12,7 +12,8 @@ namespace Biblioteca
 
         private void IniciarSesion_Load(object sender, EventArgs e)
         {
-
+            tbContraseña.PasswordChar = '*';
+            tbContraseña.UseSystemPasswordChar = true;  
         }
 
         private void button1_Click(object sender, EventArgs e)
