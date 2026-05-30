@@ -195,7 +195,7 @@ namespace Biblioteca.Usuario
         private void tsbBuscar_Click(object sender, EventArgs e)
         {
             if (miObjeto == null) return;
-            frmBuscador ayuda = new frmBuscador("Buscador de Roles", "id_rol", "Nombre", "Roles", " ");
+            frmBuscador ayuda = new frmBuscador("Buscador de Roles", "", " * ", "Roles", " ");
             ayuda.ShowDialog();
             if (ayuda.clave != "")
             {

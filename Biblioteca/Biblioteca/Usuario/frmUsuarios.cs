@@ -90,6 +90,7 @@ namespace Biblioteca.Usuario
                 return;
             tbId.Text = obj.Id.ToString();
             tbNombre.Text = obj.Nombre;
+            tbClave.Text = obj.Clave;
             cbRol.SelectedValue = obj.Rol.Id;
             tbCorreo.Text = obj.Correo;
             tbTelefono.Text = obj.Telefono;
@@ -215,7 +216,7 @@ namespace Biblioteca.Usuario
         private void tsbBuscar_Click(object sender, EventArgs e)
         {
             if (miObjeto == null) return;
-            frmBuscador ayuda = new frmBuscador("Buscador de Usuarios", "id_usuario", "nombre", "Usuarios", " ");
+            frmBuscador ayuda = new frmBuscador("Buscador de Usuarios", "", " * ", "Usuarios", " ");
             ayuda.ShowDialog();
             if (ayuda.clave != "")
             {

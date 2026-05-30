@@ -67,7 +67,7 @@
             // bCancelar
             // 
             bCancelar.Image = (Image)resources.GetObject("bCancelar.Image");
-            bCancelar.Location = new Point(656, 350);
+            bCancelar.Location = new Point(656, 415);
             bCancelar.Name = "bCancelar";
             bCancelar.Size = new Size(76, 69);
             bCancelar.TabIndex = 11;
@@ -92,7 +92,7 @@
             pEncabezado.Controls.Add(lId);
             pEncabezado.Location = new Point(1, 74);
             pEncabezado.Name = "pEncabezado";
-            pEncabezado.Size = new Size(731, 256);
+            pEncabezado.Size = new Size(731, 319);
             pEncabezado.TabIndex = 10;
             // 
             // bLibro
@@ -248,7 +248,7 @@
             toolStrip1.Items.AddRange(new ToolStripItem[] { tsbPrimero, tsbAnterior, tsbSiguiente, tsbUltimo, toolStripSeparator1, tsbGuardar, tsbEditar, tsbNuevo, toolStripSeparator2, tsbEliminar, toolStripSeparator3, tsbBuscar });
             toolStrip1.Location = new Point(0, 0);
             toolStrip1.Name = "toolStrip1";
-            toolStrip1.Size = new Size(749, 71);
+            toolStrip1.Size = new Size(813, 71);
             toolStrip1.TabIndex = 9;
             toolStrip1.Text = "toolStrip1";
             // 
@@ -379,7 +379,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(749, 450);
+            ClientSize = new Size(813, 499);
             Controls.Add(bCancelar);
             Controls.Add(pEncabezado);
             Controls.Add(toolStrip1);

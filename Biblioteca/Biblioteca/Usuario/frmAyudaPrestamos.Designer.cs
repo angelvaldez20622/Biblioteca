@@ -196,6 +196,7 @@
             button1.Size = new Size(112, 85);
             button1.TabIndex = 18;
             button1.UseVisualStyleBackColor = true;
+            button1.Click += bSalir_Click;
             // 
             // button2
             // 
@@ -205,6 +206,7 @@
             button2.Size = new Size(112, 85);
             button2.TabIndex = 17;
             button2.UseVisualStyleBackColor = true;
+            button2.Click += bAmpliar_Click;
             // 
             // dgvAyudaDevolver
             // 

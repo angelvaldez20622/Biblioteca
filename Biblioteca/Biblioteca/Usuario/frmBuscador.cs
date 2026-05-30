@@ -43,8 +43,8 @@ namespace Biblioteca.Usuario
             string consulta;
             DataTable dt = new DataTable();
 
-            consulta = "select " + campotabla1 + " Clave ," +
-                       campotabla2 + " busqueda, * from " + tabla + " " + Condicion;
+            consulta = "select " + campotabla1 + " " +
+                       campotabla2 + " from " + tabla + " " + Condicion;
 
             dt = CConexion_BD.Consulta(consulta);
             dv = new DataView(dt);

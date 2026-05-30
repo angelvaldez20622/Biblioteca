@@ -14,7 +14,7 @@ namespace Biblioteca.Usuario
     {
         CPrestamos miObjeto = CPrestamos.ultimo();
         bool nuevo = false;
-       
+
 
         public frmPrestamos()
         {
@@ -92,12 +92,17 @@ namespace Biblioteca.Usuario
                 return;
             tbId.Text = obj.Id.ToString();
             tbSolicitador.Text = obj.Cliente.Nombre;
-           
+
             tbPrestador.Text = obj.Usuario.Nombre;
-            
+
             tbLibro.Text = obj.Libro.Nombre;
-            
+
             dtpTermino.Value = obj.FechaTermino;
+            if (obj.Devuelto == "si")
+                chbDevuelto.Checked = true;
+            else
+                chbDevuelto.Checked = false;
+
         }
         private void bPrestador_Click(object sender, EventArgs e)
         {
@@ -252,7 +257,7 @@ namespace Biblioteca.Usuario
         private void tsbBuscar_Click(object sender, EventArgs e)
         {
             if (miObjeto == null) return;
-            frmBuscador ayuda = new frmBuscador("Buscador de Prestamos", "id_prestamo", "id_usuario", "Prestamos", " ");
+            frmBuscador ayuda = new frmBuscador("Buscador de Prestamos", " P.id_prestamo AS [Clave],U_Emp.nombre AS [AtendidoPor],U_Cli.nombre AS [Cliente], P.fecha_inicio AS [Fecha Inicio],P.fecha_termino AS [Fecha Término],L.nombre AS [Libro],P.devuelto AS [Devuelto]", " ", "Prestamos", " P JOIN Usuarios U_Emp ON P.id_usuario = U_Emp.id_usuario JOIN Usuarios U_Cli ON P.id_cliente = U_Cli.id_usuario JOIN Libros L ON P.id_libro = L.id_libro;");
             ayuda.ShowDialog();
             if (ayuda.clave != "")
             {

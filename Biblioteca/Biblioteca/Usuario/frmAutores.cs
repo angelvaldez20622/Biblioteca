@@ -197,7 +197,7 @@ namespace Biblioteca.Usuario
         private void tsbBuscar_Click(object sender, EventArgs e)
         {
             if (miObjeto == null) return;
-            frmBuscador ayuda = new frmBuscador("Buscador de Autores", "id_autor", "Nombre", "Autores", " ");
+            frmBuscador ayuda = new frmBuscador("Buscador de Autores", "", " * ", "Autores", " ");
             ayuda.ShowDialog();
             if (ayuda.clave != "")
             {

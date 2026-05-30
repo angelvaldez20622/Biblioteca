@@ -149,7 +149,11 @@ VALUES
     (28, 1, 4, '2026-04-17', '2026-04-24', 8, 'no'),
     (29, 1, 5, '2026-04-18', '2026-04-25', 9, 'no'),
     (30, 1, 6, '2026-04-19', '2026-04-26', 10, 'no');
-
+--------------------------------------------vistas------------------------------------------------------------
+CREATE VIEW v_BuscadorPrestamos AS
+SELECT 
+    P.id_prestamo AS [Clave],U_Emp.nombre AS [Atendido Por],U_Cli.nombre AS [Cliente], P.fecha_inicio AS [Fecha Inicio],P.fecha_termino AS [Fecha Término],L.nombre AS [Libro],P.devuelto AS [Devuelto]
+FROM Prestamos P JOIN Usuarios U_Emp ON P.id_usuario = U_Emp.id_usuario JOIN Usuarios U_Cli ON P.id_cliente = U_Cli.id_usuario JOIN Libros L ON P.id_libro = L.id_libro;             
 -----------------------------------------consultas------------------------------------------------------------
 select * from Roles
 select top 10 * from Roles
