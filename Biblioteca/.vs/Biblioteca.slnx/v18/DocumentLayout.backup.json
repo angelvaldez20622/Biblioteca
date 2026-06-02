@@ -3,15 +3,19 @@
   "WorkspaceRootPath": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Biblioteca\\Biblioteca\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|c:\\sistemas\\semestre 6\\ambientes colaborativos y control de versiones git\\biblioteca\\biblioteca\\biblioteca\\base de datos\\cconexion_bd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\base de datos\\cconexion_bd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|c:\\sistemas\\semestre 6\\ambientes colaborativos y control de versiones git\\biblioteca\\biblioteca\\biblioteca\\usuario\\frmprestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\usuario\\frmprestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|c:\\sistemas\\semestre 6\\ambientes colaborativos y control de versiones git\\biblioteca\\biblioteca\\biblioteca\\usuario\\frmprestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Biblioteca\\Biblioteca\\biblioteca\\usuario\\frmprestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\usuario\\frmprestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|c:\\sistemas\\semestre 6\\ambientes colaborativos y control de versiones git\\biblioteca\\biblioteca\\biblioteca\\usuario\\frmbuscador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Biblioteca\\Biblioteca\\biblioteca\\usuario\\frmbuscador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\usuario\\frmbuscador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -35,19 +39,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CConexion_BD.cs",
+              "DocumentMoniker": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Biblioteca\\Biblioteca\\Biblioteca\\Base de datos\\CConexion_BD.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\Base de datos\\CConexion_BD.cs",
+              "ToolTip": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Biblioteca\\Biblioteca\\Biblioteca\\Base de datos\\CConexion_BD.cs",
+              "RelativeToolTip": "Biblioteca\\Base de datos\\CConexion_BD.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T22:28:54.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "frmPrestamos.cs",
               "DocumentMoniker": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Biblioteca\\Biblioteca\\Biblioteca\\Usuario\\frmPrestamos.cs",
               "RelativeDocumentMoniker": "Biblioteca\\Usuario\\frmPrestamos.cs",
               "ToolTip": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Biblioteca\\Biblioteca\\Biblioteca\\Usuario\\frmPrestamos.cs",
               "RelativeToolTip": "Biblioteca\\Usuario\\frmPrestamos.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAqwGYAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAA8wGYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-30T17:04:38.403Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "frmBuscador.cs",
               "DocumentMoniker": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Biblioteca\\Biblioteca\\Biblioteca\\Usuario\\frmBuscador.cs",
               "RelativeDocumentMoniker": "Biblioteca\\Usuario\\frmBuscador.cs",
@@ -60,27 +77,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "frmBuscador.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Biblioteca\\Biblioteca\\Biblioteca\\Usuario\\frmBuscador.cs",
               "RelativeDocumentMoniker": "Biblioteca\\Usuario\\frmBuscador.cs",
               "ToolTip": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Biblioteca\\Biblioteca\\Biblioteca\\Usuario\\frmBuscador.cs [Dise\u00F1o]",
               "RelativeToolTip": "Biblioteca\\Usuario\\frmBuscador.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T16:59:15.424Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-05-30T16:59:15.424Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "frmPrestamos.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Biblioteca\\Biblioteca\\Biblioteca\\Usuario\\frmPrestamos.cs",
               "RelativeDocumentMoniker": "Biblioteca\\Usuario\\frmPrestamos.cs",
               "ToolTip": "C:\\sistemas\\Semestre 6\\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\\Biblioteca\\Biblioteca\\Biblioteca\\Usuario\\frmPrestamos.cs [Dise\u00F1o]",
               "RelativeToolTip": "Biblioteca\\Usuario\\frmPrestamos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T16:59:13.363Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-05-30T16:59:13.363Z"
             }
           ]
         }

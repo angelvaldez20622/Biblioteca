@@ -8,13 +8,14 @@ namespace Biblioteca.Base_de_datos
 {
     public class CConexion_BD
     {
-        
-       
+
+
         static public SqlConnection getcxn()
         {
             SqlConnection cxn;
+            string cadena = "Server=localhost;Database=Biblioteca_BD;Integrated Security=True;TrustServerCertificate=True;";
             //string cadena = @"Data Source=(local)\SQLEXPRESS;Initial Catalog=ChachoProject;Integrated Security=yes";
-            string cadena = @"Data Source=(local)\SQLEXPRESS;Initial Catalog=Biblioteca_BD;Integrated Security=yes";
+            //string cadena = @"Data Source=(local)\SQLEXPRESS;Initial Catalog=Biblioteca_BD;Integrated Security=yes";
             //string cadena = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Biblioteca_BD;Integrated Security=True";
             cxn = new SqlConnection(cadena);
             return cxn;
@@ -23,7 +24,8 @@ namespace Biblioteca.Base_de_datos
         {
             DataTable dt = new DataTable();
             //var conn = new SqlConnection(@"Data Source=(local)\SQLEXPRESS;Initial Catalog=ChachoProject;Integrated Security=yes");
-            var conn = new SqlConnection(@"Data Source=(local)\SQLEXPRESS;Initial Catalog=Biblioteca_BD;Integrated Security=yes");
+            //var conn = new SqlConnection(@"Data Source=(local)\SQLEXPRESS;Initial Catalog=Biblioteca_BD;Integrated Security=yes");
+            var conn = new SqlConnection(@"Server=localhost;Database=Biblioteca_BD;Integrated Security=True;TrustServerCertificate=True;");
             //var conn = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Biblioteca_BD;Integrated Security=True");
             conn.Open();
             SqlDataAdapter da = new SqlDataAdapter(elSelect, conn);
