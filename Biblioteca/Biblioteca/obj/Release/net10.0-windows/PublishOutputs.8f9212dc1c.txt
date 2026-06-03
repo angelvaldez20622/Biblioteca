@@ -1,0 +1,14 @@
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\publicacionBiblio\Biblioteca.exe
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\publicacionBiblio\Biblioteca.dll
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\publicacionBiblio\Biblioteca.deps.json
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\publicacionBiblio\Biblioteca.runtimeconfig.json
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\publicacionBiblio\Biblioteca.pdb
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\publicacionBiblio\Newtonsoft.Json.dll
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\publicacionBiblio\System.Data.SqlClient.dll
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\publicacionBiblio\runtimes\win-arm64\native\sni.dll
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\publicacionBiblio\runtimes\win-x64\native\sni.dll
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\publicacionBiblio\runtimes\win-x86\native\sni.dll
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\publicacionBiblio\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\publicacionBiblio\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\publicacionBiblio\TextboxEx.dll
+C:\sistemas\Semestre 6\AMBIENTES COLABORATIVOS Y CONTROL DE VERSIONES GIT\publicacionBiblio\TextboxEx.pdb
