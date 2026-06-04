@@ -1,4 +1,4 @@
-# 📚 Sistema de Gestión de Biblioteca
+# Sistema de Gestión de Biblioteca
 
 ## Descripción
 
@@ -20,19 +20,13 @@ El proyecto fue desarrollado como parte de las actividades académicas de la mat
 
 ## Características Principales
 
-✅ Registro de libros
-
-✅ Consulta de catálogo
-
-✅ Administración de usuarios
-
-✅ Control de préstamos
-
-✅ Control de devoluciones
-
-✅ Gestión de inventario bibliográfico
-
-✅ Reportes y estadísticas
+Registro de libros
+Consulta de catálogo
+Administración de usuarios
+Control de préstamos
+Control de devoluciones
+Gestión de inventario bibliográfico
+Reportes y estadísticas
 
 ---
 
